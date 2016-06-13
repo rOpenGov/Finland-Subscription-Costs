@@ -17,17 +17,6 @@ appropriately.
 ## Overall subscription costs 2010-2015
 
 
-```
-## Error in eval(expr, envir, enclos): unknown column 'Way.of.acquisition'
-```
-
-```
-## Error in `$<-.data.frame`(`*tmp*`, "Way.of.acquisition", value = structure(integer(0), .Label = character(0), class = "factor")): replacement has 0 rows, data has 245
-```
-
-```
-## Error in `$<-.data.frame`(`*tmp*`, "Percentage", value = numeric(0)): replacement has 0 rows, data has 245
-```
 
 Based on the data collected by the Ministry of Education, Finland paid in total
 131.1 million EUR subscription and other
@@ -47,18 +36,6 @@ category](http://data.okf.fi/ropengov/20160613-FOI/dashboard.html).
 Overall, the Finnish data covers 244 publishers ([see annual costs by publisher](http://data.okf.fi/ropengov/20160613-FOI/dashboard.html). The left figure indicates the total subscription fees paid to the top publishers 2010-2015. Over one third of the total costs go to Elsevier, which has been often [criticized](https://gowers.wordpress.com/2014/04/24/elsevier-journals-some-facts/) for its huge [profit margins](http://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0127502). The costs are given per bundle, so we cannot compare average journal prices among individual publishers based on this data.
 
 ![plot of chunk foi-totalcosts2b](figure/foi-totalcosts2b-1.png)
-
-```
-## Error in eval(expr, envir, enclos): unknown column 'Way.of.acquisition'
-```
-
-```
-## Error in `$<-.data.frame`(`*tmp*`, "Way.of.acquisition", value = structure(integer(0), .Label = character(0), class = "factor")): replacement has 0 rows, data has 244
-```
-
-```
-## Error in `$<-.data.frame`(`*tmp*`, "Percentage", value = numeric(0)): replacement has 0 rows, data has 244
-```
 
 
 

@@ -18,7 +18,6 @@ df <- read.csv(f, fileEncoding = "UTF-8")
 # Rename
 df = rename(df, Publisher = Publisher.Supplier)
 df = rename(df, Organization = Organization.name)
-df = rename(df, Type = Way.of.acquisition)
 ```
 
 This is an extended version of the analysis posted in the [rOpenGov blog](). For the analysis source code, see [main.R](main.R) in this repository.
