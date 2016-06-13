@@ -5,7 +5,7 @@ Leo Lahti (June 13, 2016)
 
 
 
-This is an extended version of the analysis posted in the [rOpenGov blog](). For the analysis source code, see [main.R](main.R) in this repository.
+This is an extended version of the analysis posted in the [rOpenGov blog](http://ropengov.github.io/r/2016/06/10/FOI/). For the analysis source code, see [main.R](main.R) in this repository.
 
 The data ([Kustantajahintatiedot Suomessa 2010–2015](http://urn.fi/urn:nbn:fi:csc-kata20160609091336769027)) is provided by Finnish Ministry of Education and Culture, and its Open Science and Research Initiative funded 2014–2017.
 
