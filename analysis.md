@@ -5,7 +5,7 @@ Leo Lahti (June 13, 2016)
 
 
 
-This is an extended version of the analysis posted in the [rOpenGov blog]().
+This is an extended version of the analysis posted in the [rOpenGov blog](). For the analysis source code, see [main.R](main.R) in this repository.
 
 I have translated key terms from the Finnish data release to better
 serve the international audience. Pull requests for additional
