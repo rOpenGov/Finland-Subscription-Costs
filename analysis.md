@@ -17,10 +17,10 @@ analyses are welcome and will be acknowledged appropriately.
 
 
 Based on the data collected by the Ministry of Education, Finland paid in total
-128.9 million EUR subscription and other
-fees on scientific publishing in 2010-2015. The average annual costs for in Finland were 21 MEUR in 2010-2015.
+131.1 million EUR subscription and other
+fees on scientific publishing in 2010-2015. The average annual costs for in Finland were 22 MEUR in 2010-2015.
 
-Data for the top-10 publishers in the UK 2010-2014 is available in [Lawson, Meghreblian & Brook, 2015](https://olh.openlibhums.org/articles/10.16995/olh.72/#B45) ([Table 1](https://olh.openlibhums.org/articles/10.16995/olh.72)). During this period the UK paid altogether 4319 MEUR (rough estimate based on the exchange rate June 12, 2016) for the top-10 publishers. Finland paid 61 MEUR for the same top-10 publishers in 2010-2014. This is  16.7% of the UK expenditure _per capita_. It could be that the data is not directly comparable but this will require further investigation. 
+Data for the top-10 publishers in the UK 2010-2014 is available in [Lawson, Meghreblian & Brook, 2015](https://olh.openlibhums.org/articles/10.16995/olh.72/#B45) ([Table 1](https://olh.openlibhums.org/articles/10.16995/olh.72)). During this period the UK paid altogether 4319 MEUR (rough estimate based on the exchange rate June 12, 2016) for the top-10 publishers. Finland paid 62 MEUR for the same top-10 publishers in 2010-2014. This is  17.1% of the UK expenditure _per capita_. It could be that the data is not directly comparable but this will require further investigation. 
 
 
 Information for Finland is available by [agreement
@@ -55,7 +55,7 @@ Let us compare the [relative increase in publisher costs](http://data.okf.fi/rop
 
 
 
-The Finnish data collection includes 62 organizations ([see annual costs by organization](http://data.okf.fi/ropengov/20160613-FOI/dashboard.html)). The universities ('yliopisto') are responsible of 80.4% of all costs (left figure); University of Helsinki had the highest total costs in 2010-2015 (24.4 MEUR; top institutions shown in the right figure).
+The Finnish data collection includes 63 organizations ([see annual costs by organization](http://data.okf.fi/ropengov/20160613-FOI/dashboard.html)). The universities ('yliopisto') are responsible of 79% of all costs (left figure); University of Helsinki had the highest total costs in 2010-2015 (24.4 MEUR; top institutions shown in the right figure).
 
 <img src="figure/foi-totalcosts2d-1.png" title="plot of chunk foi-totalcosts2d" alt="plot of chunk foi-totalcosts2d" width="420px" /><img src="figure/foi-totalcosts2d-2.png" title="plot of chunk foi-totalcosts2d" alt="plot of chunk foi-totalcosts2d" width="420px" />
 

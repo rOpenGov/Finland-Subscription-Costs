@@ -1,52 +1,49 @@
 Category,Total (MEUR),Percent (%)
-Full text,46.245362,35.9
-Full text;Reference database,21.426998,16.6
-Full text;Reference database;Reference book;E-books,10.228395,7.9
-Full text;Reference database;Reference book,9.310071,7.2
-Reference database,6.253235,4.9
-Full text;Reference book,5.771714,4.5
-Full text;E-books,4.039302,3.1
-Full text;Reference database;Other,3.652121,2.8
-Reference book,3.5785,2.8
-Full text;Reference database;E-books,3.123201,2.4
-Full text;Reference database;E-books;Reference book,1.898544,1.5
-Full text;E-books;Reference book,1.720568,1.3
-Other electronic service,1.619768,1.3
-Full text;Reference database;E-books;Other electronic service,1.567702,1.2
+Full text,48.255659,36.8
+Full text; Reference database,21.426998,16.3
+E-books; Reference book; Full text; Reference database,12.126939,9.2
+Reference book; Full text; Reference database,9.310071,7.1
+Reference database,6.40002,4.9
+Reference book; Full text,5.771714,4.4
+E-books; Full text,4.039302,3.1
+Full text; Other; Reference database,3.657675,2.8
+Reference book,3.63654,2.8
+E-books; Full text; Reference database,3.123201,2.4
+E-books; Reference book; Full text,1.720568,1.3
+Other electronic service,1.619768,1.2
+E-books; Full text; Other electronic service; Reference database,1.567702,1.2
 E-books,0.932117,0.7
-Full text;Reference database;E-books;Other,0.787296,0.6
+E-books; Full text; Other; Reference database,0.787296,0.6
 Other,0.743639,0.6
-Full text;E-books;Other electronic service,0.742696,0.6
-Full text;Reference database;Reference book;Other,0.63026,0.5
-Full text;Reference database;Other electronic service,0.625618,0.5
-Full text;Other electronic service,0.540538,0.4
+E-books; Full text; Other electronic service,0.742696,0.6
+Reference book; Full text; Other; Reference database,0.63026,0.5
+Full text; Other electronic service; Reference database,0.625618,0.5
+Full text; Other electronic service,0.540538,0.4
 Dictionary,0.509811,0.4
-E-books;Reference book,0.471857,0.4
-Full text;Reference book;Dictionary,0.408174,0.3
-Full text;Reference book;Other electronic service,0.288658,0.2
-Reference book;Dictionary,0.226991,0.2
-E-books;Other electronic service,0.181978,0.1
-Full text;E-books;Reference book;Other electronic service,0.175432,0.1
-Full text;E-books;Other,0.154381,0.1
-Full text;E-books;Other electronic service;Other,0.149447,0.1
-Reference book;Other electronic service,0.113923,0.1
-Reference database;E-books;Other electronic service,0.108782,0.1
-Full text;Reference database;Reference book;Dictionary,0.099707,0.1
-E-books;Dictionary,0.081603,0.1
-Full text;Dictionary,0.066472,0.1
-Reference book;Other,0.06158,0
-Dictionary;Other electronic service,0.058739,0
-Full text;E-books;Reference book;Dictionary,0.037668,0
-E-books;Other,0.034566,0
-E-books;Dictionary;Other electronic service,0.031464,0
-Reference book;E-books,0.02906,0
-E-books;Reference book;Other electronic service,0.027373,0
-Reference database;Other electronic service,0.023787,0
-Full text;Reference database;Reference book;Other electronic service,0.023397,0
-Full text;E-books;Reference book;Other,0.022398,0
-Full text;Reference database;E-books;Reference book;Other,0.016582,0
-Full text;Reference book;Other,0.013756,0
-Reference database;Reference book,0.012878,0
-Reference database;E-books;Other,0.010028,0
-Reference book;Dictionary;Other electronic service,0.006084,0
-Full text; Reference database;Other,0.005554,0
+E-books; Reference book,0.500917,0.4
+Reference book; Full text; Dictionary,0.408174,0.3
+Reference book; Full text; Other electronic service,0.288658,0.2
+Reference book; Dictionary,0.226991,0.2
+E-books; Other electronic service,0.181978,0.1
+E-books; Reference book; Full text; Other electronic service,0.175432,0.1
+E-books; Full text; Other,0.154381,0.1
+E-books; Full text; Other; Other electronic service,0.149447,0.1
+Reference book; Other electronic service,0.113923,0.1
+E-books; Other electronic service; Reference database,0.108782,0.1
+Reference book; Full text; Dictionary; Reference database,0.099707,0.1
+E-books; Dictionary,0.081603,0.1
+Full text; Dictionary,0.066472,0.1
+Reference book; Other,0.06158,0
+Other electronic service; Dictionary,0.058739,0
+E-books; Reference book; Full text; Dictionary,0.037668,0
+E-books; Other,0.034566,0
+E-books; Other electronic service; Dictionary,0.031464,0
+E-books; Reference book; Other electronic service,0.027373,0
+Other electronic service; Reference database,0.023787,0
+Reference book; Full text; Other electronic service; Reference database,0.023397,0
+E-books; Reference book; Full text; Other,0.022398,0
+E-books; Reference book; Full text; Other; Reference database,0.016582,0
+Reference book; Full text; Other,0.013756,0
+Reference book; Reference database,0.012878,0
+E-books; Other; Reference database,0.010028,0
+Reference book; Other electronic service; Dictionary,0.006084,0
