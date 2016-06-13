@@ -1,0 +1,92 @@
+---
+title: "Subscription costs to scientific publishers in Finland 2010-2015"
+output: 
+  flexdashboard::flex_dashboard:
+    storyboard: true
+---
+
+
+### Cost per category
+
+```{r}
+library(readr)
+library(DT)
+dat <- read_csv("table/cost_by_category.csv")
+DT::datatable(dat, options = list(
+  bPaginate = TRUE
+))
+```
+
+*** 
+
+Costs in different service categories paid by Finland 2010-2015 based on the data released by the Open Science Initiative of the Finnish Ministry of Education. For details, see [the blog post]().
+
+
+
+### Cost per organization
+
+```{r}
+library(readr)
+library(DT)
+dat <- read_csv("table/cost_by_organization_year.csv")
+DT::datatable(dat, options = list(
+  bPaginate = TRUE
+))
+```
+
+*** 
+
+Total and annual costs per organization paid by Finland 2010-2015 based on the data released by the Open Science Initiative of the Finnish Ministry of Education. For details, see [the blog post]().
+
+
+
+
+
+### Relative increase in costs by organization
+
+```{r}
+dat <- read_csv("table/cost_by_organization_year_relative.csv")
+DT::datatable(dat, options = list(
+  bPaginate = TRUE
+))
+```
+
+*** 
+
+Relative cost increase per organization compared to 2010 by each publisher based on the data released by the Open Science Initiative of the Finnish Ministry of Education.  The costs are normalized to 1 in 2010. The organizations that did not have declared costs in 2010 or 2015 are excluded. For details, see [the blog post]().
+
+
+
+
+### Cost by publisher
+
+```{r}
+dat <- read_csv("table/cost_by_publisher_year.csv")
+DT::datatable(dat, options = list(
+  bPaginate = TRUE
+))
+```
+
+*** 
+
+Total and annual costs per publisher paid by Finland 2010-2015 based on the data released by the Open Science Initiative of the Finnish Ministry of Education. For details, see [the blog post]().
+
+
+
+
+
+### Relative increase in costs by publisher
+
+```{r}
+dat <- read_csv("table/cost_by_publisher_year_relative.csv")
+DT::datatable(dat, options = list(
+  bPaginate = TRUE
+))
+```
+
+*** 
+
+Relative cost increase per publisher compared to 2010 by each publisher based on the data released by the Open Science Initiative of the Finnish Ministry of Education.  The costs are normalized to 1 in 2010. The publishers that did not have declared costs in 2010 or 2015 are excluded. For details, see [the blog post]().
+
+
+
