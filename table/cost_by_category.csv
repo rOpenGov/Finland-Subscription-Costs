@@ -1,49 +1,49 @@
-Category,Total (MEUR),Percent (%)
-Full text,48.255659,36.8
-Full text; Reference database,21.426998,16.3
-E-books; Reference book; Full text; Reference database,12.126939,9.2
-Reference book; Full text; Reference database,9.310071,7.1
+Resource.type,Total (MEUR),Percent (%)
+Full text materials,48.255659,36.8
+Full text materials; Reference database,21.426998,16.3
+Full text materials; Reference database; Reference resource; eBook package,12.126939,9.2
+Full text materials; Reference database; Reference resource,9.310071,7.1
 Reference database,6.40002,4.9
-Reference book; Full text,5.771714,4.4
-E-books; Full text,4.039302,3.1
-Full text; Other; Reference database,3.657675,2.8
-Reference book,3.63654,2.8
-E-books; Full text; Reference database,3.123201,2.4
-E-books; Reference book; Full text,1.720568,1.3
+Full text materials; Reference resource,5.771714,4.4
+Full text materials; eBook package,4.039302,3.1
+Full text materials; Other; Reference database,3.657675,2.8
+Reference resource,3.63654,2.8
+Full text materials; Reference database; eBook package,3.123201,2.4
+Full text materials; Reference resource; eBook package,1.720568,1.3
 Other electronic service,1.619768,1.2
-E-books; Full text; Other electronic service; Reference database,1.567702,1.2
-E-books,0.932117,0.7
-E-books; Full text; Other; Reference database,0.787296,0.6
+Full text materials; Other electronic service; Reference database; eBook package,1.567702,1.2
+eBook package,0.932117,0.7
+Full text materials; Other; Reference database; eBook package,0.787296,0.6
 Other,0.743639,0.6
-E-books; Full text; Other electronic service,0.742696,0.6
-Reference book; Full text; Other; Reference database,0.63026,0.5
-Full text; Other electronic service; Reference database,0.625618,0.5
-Full text; Other electronic service,0.540538,0.4
+Full text materials; Other electronic service; eBook package,0.742696,0.6
+Full text materials; Other; Reference database; Reference resource,0.63026,0.5
+Full text materials; Other electronic service; Reference database,0.625618,0.5
+Full text materials; Other electronic service,0.540538,0.4
 Dictionary,0.509811,0.4
-E-books; Reference book,0.500917,0.4
-Reference book; Full text; Dictionary,0.408174,0.3
-Reference book; Full text; Other electronic service,0.288658,0.2
-Reference book; Dictionary,0.226991,0.2
-E-books; Other electronic service,0.181978,0.1
-E-books; Reference book; Full text; Other electronic service,0.175432,0.1
-E-books; Full text; Other,0.154381,0.1
-E-books; Full text; Other; Other electronic service,0.149447,0.1
-Reference book; Other electronic service,0.113923,0.1
-E-books; Other electronic service; Reference database,0.108782,0.1
-Reference book; Full text; Dictionary; Reference database,0.099707,0.1
-E-books; Dictionary,0.081603,0.1
-Full text; Dictionary,0.066472,0.1
-Reference book; Other,0.06158,0
-Other electronic service; Dictionary,0.058739,0
-E-books; Reference book; Full text; Dictionary,0.037668,0
-E-books; Other,0.034566,0
-E-books; Other electronic service; Dictionary,0.031464,0
-E-books; Reference book; Other electronic service,0.027373,0
+Reference resource; eBook package,0.500917,0.4
+Dictionary; Full text materials; Reference resource,0.408174,0.3
+Full text materials; Other electronic service; Reference resource,0.288658,0.2
+Dictionary; Reference resource,0.226991,0.2
+Other electronic service; eBook package,0.181978,0.1
+Full text materials; Other electronic service; Reference resource; eBook package,0.175432,0.1
+Full text materials; Other; eBook package,0.154381,0.1
+Full text materials; Other; Other electronic service; eBook package,0.149447,0.1
+Other electronic service; Reference resource,0.113923,0.1
+Other electronic service; Reference database; eBook package,0.108782,0.1
+Dictionary; Full text materials; Reference database; Reference resource,0.099707,0.1
+Dictionary; eBook package,0.081603,0.1
+Dictionary; Full text materials,0.066472,0.1
+Other; Reference resource,0.06158,0
+Dictionary; Other electronic service,0.058739,0
+Dictionary; Full text materials; Reference resource; eBook package,0.037668,0
+Other; eBook package,0.034566,0
+Dictionary; Other electronic service; eBook package,0.031464,0
+Other electronic service; Reference resource; eBook package,0.027373,0
 Other electronic service; Reference database,0.023787,0
-Reference book; Full text; Other electronic service; Reference database,0.023397,0
-E-books; Reference book; Full text; Other,0.022398,0
-E-books; Reference book; Full text; Other; Reference database,0.016582,0
-Reference book; Full text; Other,0.013756,0
-Reference book; Reference database,0.012878,0
-E-books; Other; Reference database,0.010028,0
-Reference book; Other electronic service; Dictionary,0.006084,0
+Full text materials; Other electronic service; Reference database; Reference resource,0.023397,0
+Full text materials; Other; Reference resource; eBook package,0.022398,0
+Full text materials; Other; Reference database; Reference resource; eBook package,0.016582,0
+Full text materials; Other; Reference resource,0.013756,0
+Reference database; Reference resource,0.012878,0
+Other; Reference database; eBook package,0.010028,0
+Dictionary; Other electronic service; Reference resource,0.006084,0
