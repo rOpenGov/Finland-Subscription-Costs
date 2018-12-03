@@ -1,4 +1,4 @@
-# Subscription costs to scientific publishers in Finland 2010-2017
+## Subscription costs to scientific publishers in Finland 2010-2017
 
 Leo Lahti (Dec 3, 2018) 
 
@@ -250,7 +250,7 @@ dfs$Year = as.numeric(as.character(dfs$Year))
 
 Finally, let us compare the [relative increase in costs across the institutions](http://data.okf.fi/ropengov/20160613-FOI/dashboard.html). The costs are normalized to 1 in 2010, and the top 10 organizations with the highest cost increase in 2010-2017 are shown. The `r sum(!(!is.na(subset(dfs, Year == 2010)$Costs) & !is.na(subset(dfs, Year == 2017)$Costs)))` organizations that did not have declared costs in 2010 or 2017 (see [here](http://data.okf.fi/ropengov/20160613-FOI/dashboard.html)) are excluded.
 
-```{r foi-timebyorganization2b, message=FALSE, echo=FALSE, warning=FALSE, fig.width=18, fig.heigth=4}
+```{r foi-timebyorganization2b, message=FALSE, echo=FALSE, warning=FALSE, fig.width=14, fig.heigth=3}
 # Just show organization with the largest cost increases
 dfs$Costs[dfs$Costs == 0] = NA
 top <- as.character((subset(dfs, Year == 2017) %>% arrange(desc(Costs)))$Organization)[1:10]
@@ -261,7 +261,7 @@ p <- ggplot(dfs, aes(x = Year, y = Costs, color = Organization)) +
 geom_point() +
        geom_line() +       
        ggtitle("Relative cost increase by organization") +
-       ylab("Relative cost increase") +
+       ylab("Relative cost increase (%)") +
        scale_y_continuous(breaks = seq(2, max(dfs$Costs, na.rm = TRUE), 2))
 print(p)
 ```

@@ -1,4 +1,4 @@
-# Subscription costs to scientific publishers in Finland 2010-2017
+## Subscription costs to scientific publishers in Finland 2010-2017
 
 Leo Lahti (Dec 3, 2018) 
 
