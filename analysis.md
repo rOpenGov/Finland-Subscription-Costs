@@ -5,11 +5,11 @@ Leo Lahti (Dec 3, 2018)
 
 
 
-This is an updated version of the analysis posted in the [rOpenGov blog](http://ropengov.github.io/r/2016/06/10/FOI/). For the analysis source code, see [main.R](main.R) in this repository.
+Finland is possibly the only country that has systematically collected and released open data on subscription prices that research libraries pay to academic publishers. In addition, [full text agreements](https://www.kansalliskirjasto.fi/extra/finelib_julkinen/) with many publishers have been made available.
 
-The data ([Publisher Costs in Finland 2010–2017](http://urn.fi/urn:nbn:fi:csc-kata20160609091336769027)) is being collected and maintained by [avointiede.fi](https://avointiede.fi/fi/avoimet-julkaisut/kustantajahintatietoja), and was initially provided by Finnish Ministry of Education and Culture, and its Open Science and Research Initiative funded 2014–2017.
+The data is available for all major research institutions in Finland ([2010–2017](http://urn.fi/urn:nbn:fi:csc-kata20160609091336769027)), and it is being collected and maintained by [avointiede.fi](https://avointiede.fi/fi/avoimet-julkaisut/kustantajahintatietoja). The data was initially provided by Finnish Ministry of Education and Culture, and its Open Science and Research Initiative funded 2014–2017, after a successful [Freedom of Information request] by the Finnish Open Science community, as summarized [elsewhere](https://www.mostlyphysics.net/blog/2016/6/13/finland-takes-leading-role-in-the-openness-of-academic-journal-pricing).
 
-I have abbreviated some terms as detailed in the source code. Pull
+This is an updated version of the analysis posted in the [rOpenGov blog](http://ropengov.github.io/r/2016/06/10/FOI/). For the analysis source code, see [main.R](main.R) in this repository. I have abbreviated some terms as detailed in the source code. Pull
 requests for additional analyses are welcome and will be acknowledged
 appropriately.
 
@@ -33,7 +33,7 @@ category](http://data.okf.fi/ropengov/20160613-FOI/dashboard.html).
 
 ### Costs by publisher
 
-Overall, the Finnish data covers 376 publishers ([see annual costs by publisher](http://data.okf.fi/ropengov/20160613-FOI/dashboard.html). The left figure indicates the total subscription fees paid to the top publishers 2010-2017. Over one third of the total costs go to Elsevier, which has been often [criticized](https://gowers.wordpress.com/2014/04/24/elsevier-journals-some-facts/) for its huge [profit margins](http://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0127502). The costs are given per bundle, so we cannot compare average journal prices among individual publishers based on this data.
+Overall, the Finnish data covers 376 unique publishers ([see annual costs by publisher](http://data.okf.fi/ropengov/20160613-FOI/dashboard.html). The left figure indicates the total subscription fees paid to the top publishers 2010-2017. Over one third of the total costs go to Elsevier, which has been often [criticized](https://gowers.wordpress.com/2014/04/24/elsevier-journals-some-facts/) for its huge [profit margins](http://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0127502). The costs are given per bundle, so we cannot compare average journal prices among individual publishers based on this data.
 
 ![plot of chunk foi-totalcosts2b](figure/foi-totalcosts2b-1.png)
 
@@ -48,11 +48,6 @@ The total costs paid to scientific publishers by Finland have increased roughly 
 
 
 Let us compare the [relative increase in publisher costs](http://data.okf.fi/ropengov/20160613-FOI/dashboard.html). The costs are normalized to 1 in 2010, and the top 10 publishers with the highest cost increase in 2010-2017 are shown. The 275 publishers that did not have declared costs in 2010 or 2017 (see [here](http://data.okf.fi/ropengov/20160613-FOI/dashboard.html)) are excluded.
-
-
-```
-## Warning: Removed 1 rows containing missing values (geom_point).
-```
 
 ![plot of chunk foi-timebypublisher2b](figure/foi-timebypublisher2b-1.png)
 
@@ -69,10 +64,5 @@ The Finnish data collection includes 82 organizations ([see annual costs by orga
 
 
 Finally, let us compare the [relative increase in costs across the institutions](http://data.okf.fi/ropengov/20160613-FOI/dashboard.html). The costs are normalized to 1 in 2010, and the top 10 organizations with the highest cost increase in 2010-2017 are shown. The 34 organizations that did not have declared costs in 2010 or 2017 (see [here](http://data.okf.fi/ropengov/20160613-FOI/dashboard.html)) are excluded.
-
-
-```
-## Warning: Removed 3 rows containing missing values (geom_point).
-```
 
 ![plot of chunk foi-timebyorganization2b](figure/foi-timebyorganization2b-1.png)
