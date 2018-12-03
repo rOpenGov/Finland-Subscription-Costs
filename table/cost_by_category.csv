@@ -1,49 +1,64 @@
 Resource.type,Total (MEUR),Percent (%)
-Full text materials,48.255659,36.8
-Full text materials; Reference database,21.426998,16.3
-Full text materials; Reference database; Reference resource; eBook package,12.126939,9.2
-Full text materials; Reference database; Reference resource,9.310071,7.1
-Reference database,6.40002,4.9
-Full text materials; Reference resource,5.771714,4.4
-Full text materials; eBook package,4.039302,3.1
-Full text materials; Other; Reference database,3.657675,2.8
-Reference resource,3.63654,2.8
-Full text materials; Reference database; eBook package,3.123201,2.4
-Full text materials; Reference resource; eBook package,1.720568,1.3
-Other electronic service,1.619768,1.2
-Full text materials; Other electronic service; Reference database; eBook package,1.567702,1.2
-eBook package,0.932117,0.7
-Full text materials; Other; Reference database; eBook package,0.787296,0.6
-Other,0.743639,0.6
-Full text materials; Other electronic service; eBook package,0.742696,0.6
-Full text materials; Other; Reference database; Reference resource,0.63026,0.5
-Full text materials; Other electronic service; Reference database,0.625618,0.5
-Full text materials; Other electronic service,0.540538,0.4
-Dictionary,0.509811,0.4
-Reference resource; eBook package,0.500917,0.4
-Dictionary; Full text materials; Reference resource,0.408174,0.3
-Full text materials; Other electronic service; Reference resource,0.288658,0.2
-Dictionary; Reference resource,0.226991,0.2
-Other electronic service; eBook package,0.181978,0.1
-Full text materials; Other electronic service; Reference resource; eBook package,0.175432,0.1
-Full text materials; Other; eBook package,0.154381,0.1
-Full text materials; Other; Other electronic service; eBook package,0.149447,0.1
-Other electronic service; Reference resource,0.113923,0.1
-Other electronic service; Reference database; eBook package,0.108782,0.1
-Dictionary; Full text materials; Reference database; Reference resource,0.099707,0.1
-Dictionary; eBook package,0.081603,0.1
-Dictionary; Full text materials,0.066472,0.1
-Other; Reference resource,0.06158,0
-Dictionary; Other electronic service,0.058739,0
-Dictionary; Full text materials; Reference resource; eBook package,0.037668,0
-Other; eBook package,0.034566,0
-Dictionary; Other electronic service; eBook package,0.031464,0
-Other electronic service; Reference resource; eBook package,0.027373,0
-Other electronic service; Reference database,0.023787,0
-Full text materials; Other electronic service; Reference database; Reference resource,0.023397,0
-Full text materials; Other; Reference resource; eBook package,0.022398,0
-Full text materials; Other; Reference database; Reference resource; eBook package,0.016582,0
-Full text materials; Other; Reference resource,0.013756,0
-Reference database; Reference resource,0.012878,0
-Other; Reference database; eBook package,0.010028,0
-Dictionary; Other electronic service; Reference resource,0.006084,0
+Kokotekstiaineisto,69.29874852,34.9
+Kokotekstiaineisto; Viitetietokanta,26.311851,13.2
+Hakuteos; Kokotekstiaineisto; Viitetietokanta,20.357628,10.2
+E-kirjapaketti; Hakuteos; Kokotekstiaineisto; Viitetietokanta,18.200737,9.2
+Hakuteos; Kokotekstiaineisto,11.352934,5.7
+Viitetietokanta,8.486487,4.3
+E-kirjapaketti; Kokotekstiaineisto,6.141375,3.1
+Hakuteos,5.5147652,2.8
+E-kirjapaketti; Kokotekstiaineisto; Viitetietokanta,4.151993,2.1
+E-kirjapaketti; Hakuteos; Kokotekstiaineisto,3.895514,2
+Kokotekstiaineisto; Muu; Viitetietokanta,3.794139,1.9
+Muu elektroninen palvelu,2.776358,1.4
+E-kirjapaketti; Kokotekstiaineisto; Muu elektroninen palvelu; Viitetietokanta,2.5149,1.3
+E-kirjapaketti; Kokotekstiaineisto; Muu elektroninen palvelu,1.694053,0.9
+E-kirjapaketti,1.669276,0.8
+Muu,1.0847,0.5
+Kokotekstiaineisto; Muu elektroninen palvelu; Viitetietokanta,1.034363,0.5
+Hakuteos; Kokotekstiaineisto; Muu elektroninen palvelu; Viitetietokanta,1.003364,0.5
+E-kirjapaketti; Kokotekstiaineisto; Muu; Viitetietokanta,0.890651,0.4
+Kokotekstiaineisto; Muu elektroninen palvelu,0.881248,0.4
+E-kirjapaketti; Hakuteos,0.867401,0.4
+Sanakirja,0.743446,0.4
+Hakuteos; Kokotekstiaineisto; Muu; Viitetietokanta,0.732993,0.4
+Hakuteos; Kokotekstiaineisto; Sanakirja,0.536639,0.3
+E-kirjapaketti; Hakuteos; Kokotekstiaineisto; Muu elektroninen palvelu; Viitetietokanta,0.525948,0.3
+E-kirjapaketti; Kokotekstiaineisto; Muu,0.371991,0.2
+Hakuteos; Sanakirja,0.362187,0.2
+E-kirjapaketti; Kokotekstiaineisto; Muu elektroninen palvelu; Sanakirja; Viitetietokanta,0.36086,0.2
+Hakuteos; Kokotekstiaineisto; Muu elektroninen palvelu,0.340824,0.2
+E-kirjapaketti; Hakuteos; Kokotekstiaineisto; Muu elektroninen palvelu,0.289592,0.1
+E-kirjapaketti; Muu elektroninen palvelu,0.249736,0.1
+Muu elektroninen palvelu; Viitetietokanta,0.228784,0.1
+E-kirjapaketti; Muu elektroninen palvelu; Viitetietokanta,0.190437,0.1
+E-kirjapaketti; Hakuteos; Kokotekstiaineisto; Sanakirja; Viitetietokanta,0.158543,0.1
+E-kirjapaketti; Kokotekstiaineisto; Muu; Muu elektroninen palvelu,0.149447,0.1
+Hakuteos; Muu elektroninen palvelu,0.149347,0.1
+E-kirjapaketti; Kokotekstiaineisto; Sanakirja,0.145589,0.1
+E-kirjapaketti; Kokotekstiaineisto; Muu; Muu elektroninen palvelu; Viitetietokanta,0.139355,0.1
+E-kirjapaketti; Hakuteos; Kokotekstiaineisto; Muu; Viitetietokanta,0.136823,0.1
+Muu elektroninen palvelu; Sanakirja,0.135869,0.1
+Kokotekstiaineisto; Sanakirja,0.108557,0.1
+Hakuteos; Kokotekstiaineisto; Sanakirja; Viitetietokanta,0.099707,0.1
+E-kirjapaketti; Sanakirja,0.081603,0
+E-kirjapaketti; Hakuteos; Muu elektroninen palvelu,0.072515,0
+Hakuteos; Kokotekstiaineisto; Muu,0.063757,0
+Hakuteos; Muu,0.06158,0
+E-kirjapaketti; Viitetietokanta,0.045273,0
+E-kirjapaketti; Hakuteos; Kokotekstiaineisto; Muu elektroninen palvelu; Sanakirja; Viitetietokanta,0.043081,0
+Kokotekstiaineisto; Muu,0.038013,0
+E-kirjapaketti; Hakuteos; Kokotekstiaineisto; Sanakirja,0.037668,0
+E-kirjapaketti; Muu elektroninen palvelu; Sanakirja,0.035106,0
+E-kirjapaketti; Muu,0.034566,0
+Hakuteos; Viitetietokanta,0.023685,0
+E-kirjapaketti; Hakuteos; Kokotekstiaineisto; Muu,0.022398,0
+Muu; Sanakirja,0.020806,0
+E-kirjapaketti; Kokotekstiaineisto; Muu elektroninen aineisto,0.017012,0
+,0.016617,0
+E-kirjapaketti; Muu; Viitetietokanta,0.010028,0
+Hakuteos; Muu elektroninen aineisto,0.007906,0
+Hakuteos; Muu elektroninen palvelu; Sanakirja,0.006084,0
+Hakuteos; Kokotekstiaineisto; Muu elektroninen palvelu; Sanakirja,0.004866,0
+Hakuteos; Muu; Viitetietokanta,0.003939,0
+E-kirjapaketti; Muu; Sanakirja,0.003642,0

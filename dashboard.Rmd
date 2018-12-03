@@ -1,5 +1,5 @@
 ---
-title: "Subscription costs to scientific publishers in Finland 2010-2015"
+title: "Subscription costs to scientific publishers in Finland 2010-2017"
 output: 
   flexdashboard::flex_dashboard:
     storyboard: true
@@ -19,7 +19,7 @@ DT::datatable(dat, options = list(
 
 *** 
 
-Costs in different service categories paid by Finland 2010-2015 based on the data released by the Open Science Initiative of the Finnish Ministry of Education. For details, see [the blog post]().
+Costs in different service categories paid by Finland 2010-2017 based on the data released by the Open Science Initiative of the Finnish Ministry of Education. For details, see [the blog post]().
 
 
 
@@ -36,7 +36,7 @@ DT::datatable(dat, options = list(
 
 *** 
 
-Total and annual costs per organization paid by Finland 2010-2015 based on the data released by the Open Science Initiative of the Finnish Ministry of Education. For details, see [the blog post]().
+Total and annual costs per organization paid by Finland 2010-2017 based on the data released by the Open Science Initiative of the Finnish Ministry of Education. For details, see [the blog post]().
 
 
 
@@ -53,7 +53,7 @@ DT::datatable(dat, options = list(
 
 *** 
 
-Relative cost increase per organization compared to 2010 by each publisher based on the data released by the Open Science Initiative of the Finnish Ministry of Education.  The costs are normalized to 1 in 2010. The organizations that did not have declared costs in 2010 or 2015 are excluded. For details, see [the blog post]().
+Relative cost increase per organization compared to 2010 by each publisher based on the data released by the Open Science Initiative of the Finnish Ministry of Education.  The costs are normalized to 1 in 2010. The organizations that did not have declared costs in 2010 or 2017 are excluded. For details, see [the blog post]().
 
 
 
@@ -69,7 +69,7 @@ DT::datatable(dat, options = list(
 
 *** 
 
-Total and annual costs per publisher paid by Finland 2010-2015 based on the data released by the Open Science Initiative of the Finnish Ministry of Education. For details, see [the blog post]().
+Total and annual costs per publisher paid by Finland 2010-2017 based on the data released by the Open Science Initiative of the Finnish Ministry of Education. For details, see [the blog post]().
 
 
 
@@ -86,7 +86,7 @@ DT::datatable(dat, options = list(
 
 *** 
 
-Relative cost increase per publisher compared to 2010 by each publisher based on the data released by the Open Science Initiative of the Finnish Ministry of Education.  The costs are normalized to 1 in 2010. The publishers that did not have declared costs in 2010 or 2015 are excluded. For details, see [the blog post]().
+Relative cost increase per publisher compared to 2010 by each publisher based on the data released by the Open Science Initiative of the Finnish Ministry of Education.  The costs are normalized to 1 in 2010. The publishers that did not have declared costs in 2010 or 2017 are excluded. For details, see [the blog post]().
 
 
 

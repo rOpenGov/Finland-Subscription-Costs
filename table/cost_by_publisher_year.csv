@@ -1,246 +1,378 @@
-Publisher (costs in MEUR),2010,2011,2012,2013,2014,2015,Total,%
-Total,17.3,19.01,21.33,22.13,24.31,27.03,131.1,100
-Elsevier,6.41,6.84,7.38,7.65,8.1,8.58,44.96,34.3
-Wiley,1.66,2.06,2.29,2.43,2.57,2.65,13.67,10.43
-Ebsco,0.81,1.76,1.97,2.09,2,1.7,10.33,7.88
-Springer,1.3,1.36,1.41,1.45,1.48,1.5,8.49,6.48
-ProQuest,0.75,0.83,0.97,0.98,1.01,1.24,5.77,4.4
-Thomson Reuters,0.49,0.54,0.67,0.73,0.77,0.94,4.13,3.15
-SAGE Publications,0.5,0.55,0.65,0.66,0.71,0.86,3.92,2.99
-American Chemical Society (ACS),0.51,0.53,0.59,0.62,0.63,0.78,3.66,2.79
-Nature Publishing Group,0.38,0.42,0.58,0.64,0.67,0.62,3.3,2.52
-Taylor & Francis,0.06,0.06,0.1,0.1,1.13,1.3,2.75,2.1
-Institute of Electrical and Electronics Engineers (IEEE),0.29,0.31,0.39,0.4,0.39,0.52,2.31,1.76
-LM Tietopalvelut,0.11,0.15,0.25,0.25,0.28,1.22,2.27,1.73
-Duodecim,0.18,0.23,0.29,0.35,0.46,0.51,2.02,1.54
-Talentum,0.14,0.16,0.17,0.19,0.25,0.46,1.36,1.04
-Wolters Kluwer Health,0.22,0.19,0.22,0.21,0.24,0.25,1.33,1.01
-Suomen Standardisoimisliitto SFS,0.16,0.17,0.2,0.22,0.23,0.24,1.23,0.94
-Emerald Group Publishing,0.15,0.16,0.2,0.2,0.21,0.23,1.15,0.88
-Kielikone,0.2,0.16,0.16,0.17,0.19,0.17,1.06,0.81
-Ovid,0.1,0.2,0.19,0.16,0.17,0.18,1,0.76
-Edita Publishing,0.13,0.13,0.14,0.15,0.16,0.15,0.86,0.66
-Chemical Abstracts Service (CAS),0.13,0.13,0.14,0.14,0.14,0.18,0.85,0.65
-Swets,0.68,0,0,0,0,0,0.68,0.52
-Viite & Hakuteos & kokotekstietokannat:  tilattu useilta kotimaiselta ja kansain,0.15,0.04,0.09,0.1,0.09,0.15,0.63,0.48
-JSTOR,0.1,0.09,0.1,0.1,0.09,0.13,0.61,0.46
-Oxford University Press (OUP),0.08,0.08,0.09,0.09,0.11,0.12,0.56,0.43
-BTJ Kirjastopalvelu,0.08,0.08,0.11,0.08,0.08,0.08,0.52,0.4
-American Association for the Advancement of Science (AAAS),0.07,0.07,0.08,0.09,0.09,0.08,0.48,0.37
-Association for Computer Machinery (ACM),0.08,0.07,0.08,0.07,0.07,0.08,0.46,0.35
-Aalto-yliopisto,0.11,0.11,0.06,0.06,0.06,0.06,0.45,0.34
-Johns Hopkins University Press (JHU Press),0.06,0.06,0.08,0.08,0.08,0.08,0.43,0.33
-WSOY,0.13,0.13,0.14,0,0,0,0.4,0.3
-Kansalliskirjasto,0.05,0.05,0.06,0.06,0.06,0.06,0.35,0.26
-OECD,0.05,0.05,0.07,0.06,0.06,0.06,0.35,0.26
-Bureau van Dijk,0.04,0.05,0.06,0.06,0.07,0.06,0.33,0.25
-Kauppalehti,0.03,0.04,0.05,0.06,0.07,0.07,0.32,0.24
-Lippincott Williams & Wilkins (LWW),0.05,0.05,0.05,0.05,0.05,0.05,0.31,0.24
-Lippincott Williams & Wilkins (LWW),0.04,0.04,0.05,0.05,0.06,0.07,0.3,0.23
-American Mathematical Society (AMS),0.03,0.05,0.05,0.05,0.05,0.06,0.3,0.23
-Integrum,0.05,0.05,0.04,0.05,0.04,0.05,0.28,0.21
-Helsingin yliopisto,0.05,0.04,0.04,0.04,0.05,0.05,0.27,0.21
-FinELib,0.04,0.04,0.04,0.04,0.04,0.06,0.26,0.19
-Royal Society of Chemistry (RSC),0.02,0.03,0.03,0.04,0.05,0.07,0.25,0.19
-Sanoma,0,0,0,0.12,0.11,0,0.23,0.18
-Rakennustieto,0.02,0.02,0.03,0.04,0.05,0.06,0.21,0.16
-Wize Nordic,0.03,0.03,0.03,0.04,0.04,0.04,0.21,0.16
-Informa,0.02,0.02,0.03,0.04,0.04,0.05,0.2,0.15
-Tilastokeskus,0.04,0.04,0.04,0.02,0.02,0.01,0.18,0.14
-Helsingin Sanomat,0.03,0.03,0.03,0.03,0.03,0.03,0.17,0.13
-Knovel,0.03,0.03,0.03,0.03,0.02,0.03,0.17,0.13
-Euromonitor International,0.02,0.02,0.03,0.03,0.03,0.03,0.17,0.13
-American Physical Society (APS),0.01,0.02,0.02,0.02,0.04,0.05,0.16,0.13
-Masterworkshop Ltd,0,0.03,0.03,0.03,0.03,0.03,0.15,0.11
-Annual Reviews,0.02,0.02,0.02,0.03,0.03,0.03,0.15,0.11
-BMJ Group,0.01,0.02,0.02,0.02,0.03,0.03,0.14,0.11
-Thieme,0.01,0.01,0.02,0.03,0.03,0.03,0.14,0.1
-Encyclopedia Britannica,0.02,0.02,0.02,0.02,0.02,0.02,0.12,0.09
-American Institute of Physics (AIP),0,0.03,0.03,0.02,0.02,0.02,0.12,0.09
-Bonnier,0,0,0.01,0.02,0.04,0.05,0.12,0.09
-HighWire,0.02,0.02,0.02,0.02,0.02,0.02,0.12,0.09
-Project Muse,0.02,0.02,0.02,0.02,0.02,0.02,0.11,0.09
-Nationalencyklopedin,0.01,0.02,0.02,0.02,0.02,0.02,0.1,0.08
-Institute of Physics (IOP),0.02,0.02,0.02,0.01,0.01,0.01,0.09,0.07
-Gartner,0.03,0.03,0.03,0,0,0,0.09,0.07
-OECD /Wize Nordic AB,0.01,0.01,0.02,0.02,0.02,0.01,0.09,0.07
-Cengage Learning,0.01,0.01,0.01,0.01,0.02,0.02,0.09,0.07
-PressReader,0.01,0.01,0.02,0.01,0.02,0.02,0.09,0.07
-World Global Style Network (WGSN),0,0.01,0.01,0.01,0.02,0.03,0.08,0.06
-LexisNexis,0,0.01,0.01,0.01,0.02,0.02,0.08,0.06
-The Optical Society (OSA),0.01,0.01,0.01,0.01,0.01,0.01,0.08,0.06
-SPIE,0,0,0.02,0.02,0.02,0.02,0.08,0.06
-American Society of Civil Engineers (ASCE),0.01,0.01,0.01,0.01,0.02,0.01,0.08,0.06
-Optics Infobase Package - Optical Society of America,0,0.01,0.01,0.01,0.01,0.02,0.07,0.05
-Wolters Kluwer,0.01,0.01,0.01,0.01,0.01,0.01,0.07,0.05
-Datamonitor,0.01,0.01,0.01,0.01,0.01,0.02,0.07,0.05
-Artstor,0,0.02,0.01,0.01,0.01,0.01,0.06,0.05
-CSC - Tieteen tietotekniikan keskus,0.01,0.01,0.01,0.01,0.01,0.01,0.06,0.04
-McGraw-Hill Education,0,0.01,0.01,0.01,0.02,0.01,0.06,0.04
-American Medical Association (AMA),0,0,0.01,0.01,0.01,0.02,0.05,0.04
-Suomalaisen Kirjallisuuden Seura (SKS),0.01,0.01,0.01,0.01,0.01,0.01,0.05,0.04
-Mary Ann Liebert Inc,0,0.01,0.01,0.01,0.01,0.01,0.05,0.04
-Ellibs,0,0,0.01,0.01,0.01,0.02,0.05,0.04
-Burgundy,0.01,0.01,0.01,0.01,0.01,0.01,0.05,0.04
-Alexander Street Press,0,0.01,0,0.01,0.01,0.01,0.05,0.04
-IFSR,0.01,0.01,0.01,0.01,0.01,0.01,0.04,0.03
-PrioInfo,0.01,0.01,0.01,0.01,0,0,0.04,0.03
-Sanoma Pro Oy,0,0,0.01,0.01,0.01,0.01,0.04,0.03
-East View,0.01,0.01,0,0.01,0,0,0.04,0.03
-SCOAP3,0,0,0,0,0.02,0.02,0.04,0.03
-Brepols,0,0,0.01,0.01,0.01,0.01,0.04,0.03
-Esmerk / M-Brain Insight,0.01,0.01,0.01,0.01,0.01,0.01,0.04,0.03
-The Financial Times Limited,0,0,0.01,0.01,0.01,0.01,0.04,0.03
-Progressive Digital Media Ltd.,0,0,0.01,0.01,0.01,0.01,0.04,0.03
-Fonecta,0.01,0.01,0.01,0,0,0,0.03,0.03
-Beck,0.01,0.01,0.01,0.01,0.01,0.01,0.03,0.03
-Gale,0,0,0,0.01,0.01,0.01,0.03,0.03
-Maney Publishing,0.01,0.01,0.01,0.01,0,0,0.03,0.02
-Helsingin seudun kauppakamari,0,0,0.01,0.01,0.01,0.01,0.03,0.02
-American Society Of Mechanical Engineers (ASME),0,0,0,0.01,0.01,0.01,0.03,0.02
-American Association for Cancer Research (AACR) /Ebsco,0,0.01,0.01,0.01,0.01,0.01,0.03,0.02
-VTT,0.01,0.01,0.01,0.01,0,0,0.03,0.02
-Elib,0,0,0,0.01,0.01,0.01,0.03,0.02
-Riksarkivet,0,0,0,0,0.01,0.01,0.03,0.02
-PSK Standardisointiyhdistys,0,0,0,0,0,0,0.03,0.02
-WSOY /Talentum,0,0.01,0.01,0,0,0,0.03,0.02
-William S. Hein & Co. Inc.,0,0,0,0.01,0,0.01,0.02,0.02
-FAR Akademi,0,0,0,0.01,0.01,0.01,0.02,0.02
-Sahköinfo Oy,0,0,0,0,0.01,0.01,0.02,0.02
-Warc,0,0,0,0,0,0,0.02,0.02
-OECD /Turpin,0,0,0,0,0,0,0.02,0.02
-ASM International,0.01,0,0,0,0,0,0.02,0.02
-Palgrave Macmillan,0,0,0,0,0,0.01,0.02,0.01
-R.R. Bowker,0.01,0.01,0,0,0,0,0.02,0.01
-Naxos Digital Services,0,0,0,0,0,0,0.02,0.01
-Retriever,0,0,0,0,0,0,0.02,0.01
-Centre for Economic Policy Research (CEPR),0,0,0,0,0,0,0.02,0.01
-Know China Technology,0,0,0,0,0,0,0.02,0.01
-Tutkimus- ja Analysointikeskus TAK,0,0,0,0,0.01,0,0.02,0.01
-UN Publ.,0,0,0,0,0,0,0.02,0.01
-American Society Microbiology (ASM),0,0,0,0,0,0,0.02,0.01
-ProQuest /LM Tietopalvelut,0,0,0,0.01,0.01,0.01,0.02,0.01
-Bloomsbury Publishing,0,0,0,0,0,0.01,0.02,0.01
-Innventia,0,0,0,0,0,0,0.02,0.01
-RIPM Publications,0,0,0,0,0.01,0,0.02,0.01
-Encyclopedia Britannica /Wize Nordic AB,0,0,0,0,0,0,0.02,0.01
-National Bureau of Economic Research (NBER),0,0,0,0,0,0,0.02,0.01
-BioOne,0,0,0,0,0,0,0.01,0.01
-Kompass,0,0,0,0,0,0,0.01,0.01
-ETLA,0,0,0,0,0,0,0.01,0.01
-Material ConneXion,0,0,0,0,0,0,0.01,0.01
-FinPro,0,0,0,0,0,0,0.01,0.01
-Pharmaceutical Press,0,0,0,0,0,0.01,0.01,0.01
-American Council of Learned Societies (ACLS),0,0,0,0,0,0,0.01,0.01
-IOP Publishing,0,0,0,0,0,0,0.01,0.01
-Centre for Agriculture and Biosciences International (CABI),0,0,0,0,0,0,0.01,0.01
-Lehtimarket,0,0,0,0,0,0,0.01,0.01
-Online Computer Library Center (OCLC),0,0,0,0,0,0,0.01,0.01
-Sanoma Media Finland Oy,0,0,0,0,0,0,0.01,0.01
-Brill,0,0,0,0,0,0,0.01,0.01
-Metsätalouden kehittämiskeskus Tapio,0,0,0,0,0,0,0.01,0.01
-Cambridge University Press,0,0,0,0,0,0.01,0.01,0.01
-Dawsonera,0,0,0,0,0,0.01,0.01,0.01
-Gale Cengage Learning,0,0,0,0,0,0,0.01,0.01
-Financial Times Limited,0,0,0,0,0,0.01,0.01,0.01
-NewspaperDirect ,0,0,0,0,0,0,0.01,0.01
-Suomen asiakastieto Oy,0,0,0,0,0,0,0.01,0.01
-Savon Media,0,0,0,0,0,0,0.01,0.01
-Association for the Advancement of Computing in Education (AACE),0,0,0,0,0,0,0.01,0.01
-Benjamins,0,0,0,0,0,0,0.01,0.01
-Walter de Gruyter GMBH,0,0,0,0,0,0,0.01,0.01
-Metsäntutkimuslaitos (Metla),0,0,0,0,0,0,0.01,0.01
-CSH Press,0,0,0,0,0,0,0.01,0.01
-Statistikcentralen,0,0,0,0,0,0,0.01,0.01
-Suomen Eura-ryhmä / Mikko Syvänne tmi,0,0,0,0,0,0,0.01,0.01
-Bloomberg BNA,0,0,0,0,0,0,0.01,0.01
-Oriprobe,0,0,0,0,0,0,0.01,0.01
-Materials Research Society (MRS),0,0,0,0,0,0,0.01,0.01
-IMF,0,0,0,0,0,0,0.01,0.01
-Grove,0,0,0,0,0,0,0.01,0.01
-Britannica /LM Info,0,0,0,0,0,0,0.01,0
-World Scientific Publishing,0,0,0,0,0,0,0.01,0
-Paperi ja Puu Oy,0,0,0,0,0,0,0.01,0
-Swets Information Services,0,0,0,0,0,0,0.01,0
-Adato Energia Oy,0,0,0,0,0,0,0.01,0
-Geological Society of London /Ebsco,0,0,0,0,0,0.01,0.01,0
-Liber,0,0,0,0,0,0,0.01,0
-MIPP International,0,0,0,0,0,0,0.01,0
-Mudpie,0,0,0,0,0,0,0.01,0
-Urban View,0,0,0,0,0,0,0.01,0
-Royal Adelaide Hospital,0,0,0,0,0,0,0.01,0
-Backpages LTD,0,0,0,0,0,0,0.01,0
-LM Tietopalvelut /Wize Nordic 2014,0,0,0,0,0,0,0.01,0
-Mid Sweden University,0,0,0,0,0,0,0.01,0
-Pira International,0,0,0,0,0,0,0.01,0
-American Dietetic Association (ADA),0,0,0,0,0,0,0,0
-SSRN,0,0,0,0,0,0,0,0
-SkillSoft,0,0,0,0,0,0,0,0
-MacLaser,0,0,0,0,0,0,0,0
-Ornanet,0,0,0,0,0,0,0,0
-The National Bureau of Economic Research,0,0,0,0,0,0,0,0
-Adelaide Research & Innovation,0,0,0,0,0,0,0,0
-Communication Institute for Online Scholarship (CIOS),0,0,0,0,0,0,0,0
-Niedersächsische Staats- und Universitätsbibliothek Göttingen,0,0,0,0,0,0,0,0
-University of Oxford Oriental Studies Faculty,0,0,0,0,0,0,0,0
-SPARC Europe,0,0,0,0,0,0,0,0
-Henry Stuarts Talks,0,0,0,0,0,0,0,0
-Lovdata,0,0,0,0,0,0,0,0
-Kirjavälitys,0,0,0,0,0,0,0,0
-The Financial Times,0,0,0,0,0,0,0,0
-EI,0,0,0,0,0,0,0,0
-John Benjamins,0,0,0,0,0,0,0,0
-Association of Asian Studies (AAS),0,0,0,0,0,0,0,0
-University of Chicago Press,0,0,0,0,0,0,0,0
-Utrikespolitiska Institutet,0,0,0,0,0,0,0,0
-Futere CAD,0,0,0,0,0,0,0,0
-International Bureau of Fiscal Documentation (IBFD),0,0,0,0,0,0,0,0
-MUSEEC ,0,0,0,0,0,0,0,0
-SportBusiness Groups,0,0,0,0,0,0,0,0
-RedFox Languages,0,0,0,0,0,0,0,0
-Verlag fur chemische industrie,0,0,0,0,0,0,0,0
-PhilPapers Foundation,0,0,0,0,0,0,0,0
-Expert Information Ltd. /ProQuest,0,0,0,0,0,0,0,0
-IPA Source,0,0,0,0,0,0,0,0
-Palgrave Macmillan/Nature,0,0,0,0,0,0,0,0
-Crnet Corporate,0,0,0,0,0,0,0,0
-European Directorate for the Quality of Medicines (EDQM),0,0,0,0,0,0,0,0
-Geological Society of America (GSA) /Ebsco,0,0,0,0,0,0,0,0
-Thompson Henry,0,0,0,0,0,0,0,0
-CompOpus,0,0,0,0,0,0,0,0
-Ingram,0,0,0,0,0,0,0,0
-eMusicQuest,0,0,0,0,0,0,0,0
-OTDBASE,0,0,0,0,0,0,0,0
-Society of Exploration Geophysicists (SEG),0,0,0,0,0,0,0,0
-Encyclopedia Britannica / Wize Nordic AB,0,0,0,0,0,0,0,0
-Vittorio Klostermann,0,0,0,0,0,0,0,0
-Britannica / Wize Nordic,0,0,0,0,0,0,0,0
-Canadian Science Publishing,0,0,0,0,0,0,0,0
-Marketing Science Institute,0,0,0,0,0,0,0,0
-Richard Boorberg Verlag GmbH & Co KG,0,0,0,0,0,0,0,0
-BabelScores,0,0,0,0,0,0,0,0
-Ecopoint Inc.,0,0,0,0,0,0,0,0
-FIZ Karlsruhe,0,0,0,0,0,0,0,0
-Literary Dictionary Company Limited ,0,0,0,0,0,0,0,0
-DRAM ,0,0,0,0,0,0,0,0
-Intelex corporation,0,0,0,0,0,0,0,0
-Metsäkustannus,0,0,0,0,0,0,0,0
-Marilyn Conibear,0,0,0,0,0,0,0,0
-Delbanco,0,0,0,0,0,0,0,0
-HighWire /LM Tietopalvelut,0,0,0,0,0,0,0,0
-Alma Media,0,0,0,0,0,0,0,0
-Biering & Brinkmann Verlag,0,0,0,0,0,0,0,0
-Mineralogical Society,0,0,0,0,0,0,0,0
-International Telecommunications Union (IT),0,0,0,0,0,0,0,0
-SEPM Society for Sedimentary Geology,0,0,0,0,0,0,0,0
-SPR Veripalvelu,0,0,0,0,0,0,0,0
-Ifis Publishing,0,0,0,0,0,0,0,0
-CSIRO Publishing,0,0,0,0,0,0,0,0
-Warkauden lehti,0,0,0,0,0,0,0,0
-Pedanet,0,0,0,0,0,0,0,0
-Harvard University Press,0,0,0,0,0,0,0,0
-University of Colorado,0,0,0,0,0,0,0,0
-Consortium Erudit,0,0,0,0,0,0,0,0
-Zentralverband Gartenbau e.V.,0,0,0,0,0,0,0,0
-Iisalmen Sanomat,0,0,0,0,0,0,0,0
-American Geosciences Institute (AGI),0,0,0,0,0,0,0,0
+Publisher (costs in MEUR),2010,2011,2012,2013,2014,2015,2016,2017,Total,%
+Total,17.3,18.85,21.33,22.13,24.31,26.9,35.05,32.86,198.73,100
+Elsevier,6.41,6.84,7.38,7.65,8.1,8.58,10.46,9.79,65.21,32.82
+Wiley,1.66,2.06,2.29,2.43,2.57,2.65,3.33,2.82,19.82,9.98
+Ebsco,0.81,1.6,1.97,2.09,2,1.7,1.72,1.63,13.52,6.8
+Springer,1.3,1.36,1.41,1.45,1.48,1.5,2.2,1.94,12.63,6.36
+ProQuest,0.75,0.83,0.97,0.98,1.01,1.24,1.17,1.18,8.13,4.09
+LM Tietopalvelut,0.11,0.15,0.25,0.25,0.28,1.1,2.48,2.11,6.73,3.39
+Taylor & Francis,0.06,0.06,0.1,0.1,1.13,1.3,1.96,1.56,6.27,3.15
+American Chemical Society (ACS),0.51,0.53,0.59,0.62,0.63,0.78,1.08,1.13,5.86,2.95
+SAGE Publications,0.5,0.55,0.65,0.66,0.71,0.86,0.93,0.88,5.74,2.89
+Thomson Reuters,0.49,0.54,0.67,0.73,0.77,0.94,1.11,0.06,5.3,2.67
+Nature Publishing Group,0.38,0.42,0.58,0.64,0.67,0.62,0.67,0.59,4.57,2.3
+Institute of Electrical and Electronics Engineers (IEEE),0.29,0.31,0.39,0.4,0.39,0.52,0.9,0.89,4.1,2.06
+Duodecim,0.18,0.23,0.29,0.35,0.46,0.51,0.63,0.72,3.37,1.69
+Ovid,0.1,0.2,0.19,0.16,0.17,0.18,0.84,0.88,2.72,1.37
+Suomen Standardisoimisliitto SFS,0.16,0.17,0.2,0.22,0.23,0.24,0.32,0.32,1.87,0.94
+Emerald Group Publishing,0.15,0.16,0.2,0.2,0.21,0.23,0.24,0.25,1.64,0.83
+Kielikone,0.2,0.16,0.16,0.17,0.19,0.17,0.24,0.24,1.54,0.78
+Wolters Kluwer,0.24,0.2,0.23,0.21,0.25,0.26,0.05,0.04,1.49,0.75
+Talentum,0.14,0.16,0.17,0.19,0.25,0.46,0,0.01,1.37,0.69
+Edita Publishing,0.13,0.13,0.14,0.15,0.16,0.15,0.17,0.22,1.25,0.63
+Oxford University Press (OUP),0.08,0.08,0.09,0.09,0.11,0.12,0.26,0.25,1.07,0.54
+Clarivate Analytics,0,0,0,0,0,0,0.01,1.01,1.02,0.51
+JSTOR,0.1,0.09,0.1,0.1,0.09,0.13,0.14,0.14,0.89,0.45
+Chemical Abstracts Service (CAS),0.13,0.13,0.14,0.14,0.14,0.18,0,0,0.85,0.43
+Viite & Hakuteos & kokotekstietokannat:  tilattu useilta kotimaiselta ja kansain,0.15,0.04,0.09,0.1,0.09,0.15,0.13,0.08,0.84,0.42
+Alma Talent,0,0,0,0,0,0,0,0.8,0.8,0.4
+Alma Media,0,0,0,0,0,0,0.77,0,0.77,0.39
+American Association for the Advancement of Science (AAAS),0.07,0.07,0.08,0.09,0.09,0.08,0.16,0.11,0.75,0.38
+Swets,0.68,0,0,0,0,0,0,0,0.68,0.34
+BTJ Kirjastopalvelu,0.08,0.08,0.11,0.08,0.08,0.08,0.08,0.08,0.68,0.34
+Association for Computer Machinery (ACM),0.08,0.07,0.08,0.07,0.07,0.08,0.1,0.09,0.65,0.33
+Cengage,0.02,0.02,0.02,0.02,0.03,0.03,0.4,0.1,0.64,0.32
+Johns Hopkins University Press (JHU Press),0.06,0.06,0.08,0.08,0.08,0.08,0.09,0.1,0.63,0.32
+Lippincott Williams & Wilkins (LWW),0.09,0.09,0.1,0.1,0.11,0.12,0,0,0.61,0.31
+Royal Society of Chemistry (RSC),0.02,0.03,0.03,0.04,0.05,0.07,0.11,0.23,0.6,0.3
+OECD,0.05,0.05,0.07,0.06,0.06,0.06,0.11,0.07,0.53,0.26
+Aalto-yliopisto,0.11,0.11,0.06,0.06,0.06,0.06,0.06,0,0.51,0.26
+American Mathematical Society (AMS),0.03,0.05,0.05,0.05,0.05,0.06,0.08,0.09,0.46,0.23
+Kansalliskirjasto,0.05,0.05,0.06,0.06,0.06,0.06,0.07,0.03,0.45,0.22
+Bureau van Dijk,0.04,0.05,0.06,0.06,0.07,0.06,0.05,0.05,0.44,0.22
+Rakennustieto,0.02,0.02,0.03,0.04,0.05,0.06,0.09,0.11,0.41,0.21
+Integrum,0.05,0.05,0.04,0.05,0.04,0.05,0.06,0.06,0.41,0.2
+WSOY,0.13,0.13,0.14,0,0,0,0,0,0.4,0.2
+Helsingin yliopisto,0.05,0.04,0.04,0.04,0.05,0.05,0.06,0.07,0.4,0.2
+Kauppalehti,0.03,0.04,0.05,0.06,0.07,0.07,0,0.05,0.37,0.18
+Wize Nordic,0.03,0.03,0.03,0.04,0.04,0.04,0.04,0.11,0.35,0.18
+American Physical Society (APS),0.01,0.02,0.02,0.02,0.04,0.05,0.05,0.07,0.28,0.14
+FinELib,0.04,0.04,0.04,0.04,0.04,0.06,0,0,0.26,0.13
+Institute of Physics (IOP),0.02,0.02,0.02,0.01,0.01,0.01,0.05,0.1,0.25,0.12
+Sanoma,0,0,0,0.12,0.11,0,0,0,0.25,0.12
+Informa,0.02,0.02,0.03,0.04,0.04,0.05,0.02,0.02,0.23,0.12
+Euromonitor International,0.02,0.02,0.03,0.03,0.03,0.03,0.03,0.03,0.23,0.12
+BMJ Group,0.01,0.02,0.02,0.02,0.03,0.03,0.04,0.05,0.23,0.11
+Annual Reviews,0.02,0.02,0.02,0.03,0.03,0.03,0.03,0.04,0.22,0.11
+Bonnier,0,0,0.01,0.02,0.04,0.05,0.06,0.04,0.22,0.11
+Encyclopedia Britannica,0.02,0.02,0.02,0.02,0.02,0.03,0.04,0.04,0.21,0.11
+Tilastokeskus,0.04,0.04,0.04,0.02,0.02,0.01,0.01,0.01,0.21,0.11
+Thieme,0.01,0.01,0.02,0.03,0.03,0.03,0.04,0.03,0.2,0.1
+PressReader,0.01,0.01,0.02,0.01,0.02,0.02,0.05,0.06,0.19,0.1
+American Institute of Physics (AIP),0,0.03,0.03,0.02,0.02,0.02,0.04,0.02,0.18,0.09
+HighWire,0.02,0.02,0.02,0.02,0.02,0.02,0.03,0.03,0.18,0.09
+Masterworkshop Ltd,0,0.03,0.03,0.03,0.03,0.03,0.01,0.02,0.18,0.09
+Helsingin Sanomat,0.03,0.03,0.03,0.03,0.03,0.03,0,0,0.18,0.09
+Knovel,0.03,0.03,0.03,0.03,0.02,0.03,0,0,0.17,0.09
+Project Muse,0.02,0.02,0.02,0.02,0.02,0.02,0.03,0.03,0.17,0.08
+McGraw-Hill Education,0,0.01,0.01,0.01,0.02,0.01,0.02,0.09,0.17,0.08
+Nationalencyklopedin,0.01,0.02,0.02,0.02,0.02,0.02,0.03,0.03,0.15,0.08
+World Global Style Network (WGSN),0,0.01,0.01,0.01,0.02,0.03,0.03,0.03,0.15,0.07
+Ellibs,0,0,0.01,0.01,0.01,0.02,0.03,0.06,0.14,0.07
+SPIE,0,0,0.02,0.02,0.02,0.02,0.02,0.02,0.13,0.06
+Optical Society of America,0,0.01,0.01,0.01,0.01,0.02,0.02,0.03,0.12,0.06
+IOP Publishing,0,0,0,0,0,0,0.06,0.05,0.12,0.06
+The Financial Times,0,0,0.01,0.01,0.01,0.02,0.03,0.03,0.11,0.06
+OECD/Wize Nordic AB,0.01,0.01,0.02,0.02,0.02,0.01,0.01,0.01,0.11,0.06
+LexisNexis,0,0.01,0.01,0.01,0.02,0.02,0.02,0.01,0.11,0.06
+American Society of Civil Engineers (ASCE),0.01,0.01,0.01,0.01,0.02,0.01,0.02,0.02,0.11,0.05
+Mary Ann Liebert Inc,0,0.01,0.01,0.01,0.01,0.01,0.05,0.01,0.11,0.05
+Helsingin seudun kauppakamari,0,0,0.01,0.01,0.01,0.01,0.03,0.04,0.1,0.05
+Artstor,0,0.02,0.01,0.01,0.01,0.01,0.02,0.02,0.09,0.05
+SCOAP3,0,0,0,0,0.02,0.02,0.03,0.03,0.09,0.05
+Gartner,0.03,0.03,0.03,0,0,0,0,0,0.09,0.05
+Suomalaisen Kirjallisuuden Seura (SKS),0.01,0.01,0.01,0.01,0.01,0.01,0.02,0.01,0.08,0.04
+Datamonitor,0.01,0.01,0.01,0.01,0.01,0.02,0.01,0.01,0.08,0.04
+Economist Intelligence Unit,0,0,0,0,0,0,0,0.08,0.08,0.04
+CSC-Tieteen tietotekniikan keskus,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.08,0.04
+The Optical Society (OSA),0.01,0.01,0.01,0.01,0.01,0.01,0,0,0.08,0.04
+American Medical Association (AMA),0,0,0.01,0.01,0.01,0.02,0.02,0,0.08,0.04
+Suomen Tilintarkastajat ry,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.02,0.08,0.04
+Cambridge University Press,0,0,0,0,0,0.01,0.02,0.04,0.07,0.04
+Burgundy,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.07,0.04
+Alexander Street Press,0,0.01,0,0.01,0.01,0.01,0.01,0.01,0.07,0.04
+William S. Hein & Co. Inc.,0,0,0,0.01,0,0.01,0.01,0.03,0.07,0.03
+East View,0.01,0.01,0,0.01,0,0,0.01,0.01,0.06,0.03
+Sähköinfo Oy,0,0,0,0,0.01,0.01,0.02,0.02,0.06,0.03
+Brepols,0,0,0.01,0.01,0.01,0.01,0.01,0.01,0.05,0.03
+Journal of Visualized Experiments (JoVE),0,0,0,0,0,0,0.04,0.02,0.05,0.03
+PrioInfo,0.01,0.01,0.01,0.01,0,0,0.01,0.01,0.05,0.03
+M-Brain Insight,0,0,0,0,0,0,0.03,0.02,0.05,0.03
+Elektra,0,0,0,0,0,0,0,0.05,0.05,0.02
+Beck,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.05,0.02
+American Society Of Mechanical Engineers (ASME),0,0,0,0.01,0.01,0.01,0.01,0.01,0.04,0.02
+Brill,0,0,0,0,0,0,0,0.03,0.04,0.02
+Progressive Digital Media Ltd.,0,0,0.01,0.01,0.01,0.01,0,0.01,0.04,0.02
+Fonecta,0.01,0.01,0.01,0,0,0,0,0,0.04,0.02
+Sanoma Pro Oy,0,0,0.01,0.01,0.01,0.01,0,0,0.04,0.02
+Frost&Sullivan,0,0,0,0,0,0,0.02,0.02,0.04,0.02
+Riksarkivet,0,0,0,0,0.01,0.01,0.01,0.01,0.04,0.02
+Esmerk/M-Brain Insight,0.01,0.01,0.01,0.01,0.01,0.01,0,0,0.04,0.02
+PSK Standardisointiyhdistys,0,0,0,0,0,0,0.01,0.01,0.04,0.02
+Walter de Gruyter GmbH,0,0,0,0,0,0,0.01,0.02,0.04,0.02
+American Association for Cancer Research (AACR)/Ebsco,0,0.01,0.01,0.01,0.01,0.01,0.01,0,0.04,0.02
+FAR Akademi,0,0,0,0.01,0.01,0.01,0.01,0.01,0.04,0.02
+Elib,0,0,0,0.01,0.01,0.01,0.01,0,0.04,0.02
+Naxos Digital Services,0,0,0,0,0,0,0.01,0.01,0.04,0.02
+Maney Publishing,0.01,0.01,0.01,0.01,0,0,0,0,0.04,0.02
+Adam Matthew,0,0,0,0,0,0,0,0.03,0.03,0.02
+Karnov Group Sweden AB,0,0,0,0,0,0,0.01,0.02,0.03,0.02
+Palgrave Macmillan,0,0,0,0,0,0.01,0.01,0,0.03,0.02
+Warc,0,0,0,0,0,0,0,0,0.03,0.02
+OECD/Turpin,0,0,0,0,0,0,0,0,0.03,0.02
+Innventia,0,0,0,0,0,0,0.01,0.01,0.03,0.02
+Retriever,0,0,0,0,0,0,0.01,0,0.03,0.01
+National Bureau of Economic Research (NBER),0,0,0,0,0,0,0.01,0.01,0.03,0.01
+Teknologian tutkimuskeskus (VTT),0.01,0.01,0.01,0.01,0,0,0,0,0.03,0.01
+United Nations Publications,0,0,0,0,0,0,0,0,0.03,0.01
+Lehtimarket,0,0,0,0,0,0,0.01,0.01,0.03,0.01
+WSOY/Talentum,0,0.01,0.01,0,0,0,0,0,0.03,0.01
+The Royal Pharmaceutical Society of Great Britain,0,0,0,0,0,0,0.01,0.01,0.02,0.01
+Dawson Books,0,0,0,0,0,0.01,0.01,0.01,0.02,0.01
+De Gruyter,0,0,0,0,0,0,0.01,0.01,0.02,0.01
+BioOne,0,0,0,0,0,0,0,0.01,0.02,0.01
+ASM International,0.01,0,0,0,0,0,0,0,0.02,0.01
+Centre for Economic Policy Research (CEPR),0,0,0,0,0,0,0,0,0.02,0.01
+American Society Microbiology (ASM),0,0,0,0,0,0,0,0,0.02,0.01
+Material ConneXion,0,0,0,0,0,0,0,0,0.02,0.01
+FinPro,0,0,0,0,0,0,0,0,0.02,0.01
+American Council of Learned Societies (ACLS),0,0,0,0,0,0,0,0,0.02,0.01
+Bloomsbury Publishing,0,0,0,0,0,0.01,0,0,0.02,0.01
+Henry Stuarts Talks,0,0,0,0,0,0,0,0.01,0.02,0.01
+R.R. Bowker,0.01,0.01,0,0,0,0,0,0,0.02,0.01
+ProQuest/LM Tietopalvelut,0,0,0,0.01,0.01,0.01,0,0,0.02,0.01
+University of Chicago Press,0,0,0,0,0,0,0,0.01,0.02,0.01
+Kandidaattikustannus,0,0,0,0,0,0,0.01,0.01,0.02,0.01
+SkillSoft,0,0,0,0,0,0,0.01,0.01,0.02,0.01
+Edward Elgar,0,0,0,0,0,0,0.01,0.01,0.02,0.01
+ETLA,0,0,0,0,0,0,0,0,0.02,0.01
+Kompass,0,0,0,0,0,0,0,0,0.02,0.01
+Know China Technology,0,0,0,0,0,0,0,0,0.02,0.01
+Tutkimus- ja Analysointikeskus TAK,0,0,0,0,0.01,0,0,0,0.02,0.01
+Knowledge Unlatched,0,0,0,0,0,0,0.01,0.01,0.02,0.01
+RIPM Publications,0,0,0,0,0.01,0,0,0,0.02,0.01
+Suomen asiakastieto Oy,0,0,0,0,0,0,0,0,0.01,0.01
+American Society of Agronomy,0,0,0,0,0,0,0.01,0.01,0.01,0.01
+Metsätalouden kehittämiskeskus Tapio,0,0,0,0,0,0,0,0,0.01,0.01
+RedFox Languages,0,0,0,0,0,0,0.01,0,0.01,0.01
+Pharmaceutical Press,0,0,0,0,0,0.01,0,0,0.01,0.01
+eMarketer,0,0,0,0,0,0,0,0.01,0.01,0.01
+Prio Infocenter AB,0,0,0,0,0,0,0.01,0.01,0.01,0.01
+Paperi ja Puu Oy,0,0,0,0,0,0,0,0,0.01,0.01
+Online Computer Library Center (OCLC),0,0,0,0,0,0,0,0,0.01,0.01
+American Society for Microbiology,0,0,0,0,0,0,0,0.01,0.01,0.01
+Karger,0,0,0,0,0,0,0,0.01,0.01,0.01
+RedFox,0,0,0,0,0,0,0,0.01,0.01,0.01
+Benjamins,0,0,0,0,0,0,0,0,0.01,0.01
+Centre for Agriculture and Biosciences International (CABI),0,0,0,0,0,0,0,0,0.01,0.01
+SPARC,0,0,0,0,0,0,0,0.01,0.01,0.01
+Adato Energia Oy,0,0,0,0,0,0,0,0,0.01,0.01
+Statista GmbH,0,0,0,0,0,0,0,0.01,0.01,0.01
+SNL Financial,0,0,0,0,0,0,0,0.01,0.01,0.01
+BioMedCentral,0,0,0,0,0,0,0.01,0.01,0.01,0.01
+Prowledge Oy,0,0,0,0,0,0,0,0,0.01,0
+NewspaperDirect,0,0,0,0,0,0,0,0,0.01,0
+Springer/LM Tietopalvelut Oy,0,0,0,0,0,0,0.01,0,0.01,0
+Stratfor Global Intelligence,0,0,0,0,0,0,0.01,0,0.01,0
+World Scientific Publishing,0,0,0,0,0,0,0,0,0.01,0
+Statistikcentralen,0,0,0,0,0,0,0,0,0.01,0
+National Academy of Sciences,0,0,0,0,0,0,0.01,0,0.01,0
+Savon Media,0,0,0,0,0,0,0,0,0.01,0
+Canadian Science Publishing,0,0,0,0,0,0,0,0,0.01,0
+MIPP International,0,0,0,0,0,0,0,0,0.01,0
+Association for the Advancement of Computing in Education (AACE),0,0,0,0,0,0,0,0,0.01,0
+Backpages LTD,0,0,0,0,0,0,0,0,0.01,0
+Metsäntutkimuslaitos (Metla),0,0,0,0,0,0,0,0,0.01,0
+Social Science Electronic Publishing,0,0,0,0,0,0,0,0,0.01,0
+CSH Press,0,0,0,0,0,0,0,0,0.01,0
+MacLaser,0,0,0,0,0,0,0,0,0.01,0
+MUSEEC,0,0,0,0,0,0,0,0,0.01,0
+Suomen Eura-ryhmä/Mikko Syvänne tmi,0,0,0,0,0,0,0,0,0.01,0
+Liber,0,0,0,0,0,0,0,0,0.01,0
+Ornanet,0,0,0,0,0,0,0,0,0.01,0
+Bloomberg BNA,0,0,0,0,0,0,0,0,0.01,0
+American Dietetic Association (ADA),0,0,0,0,0,0,0,0,0.01,0
+Thompson Henry,0,0,0,0,0,0,0,0,0.01,0
+Oriprobe,0,0,0,0,0,0,0,0,0.01,0
+Materials Research Society (MRS),0,0,0,0,0,0,0,0,0.01,0
+Britannica/LM Info,0,0,0,0,0,0,0,0,0.01,0
+FitchSolutions,0,0,0,0,0,0,0,0.01,0.01,0
+Marston Book Services Ltd,0,0,0,0,0,0,0,0,0.01,0
+John Benjamins,0,0,0,0,0,0,0,0,0.01,0
+International Monetary Fund (IMF),0,0,0,0,0,0,0,0,0.01,0
+Grove,0,0,0,0,0,0,0,0,0.01,0
+Veterinary Science Database,0,0,0,0,0,0,0.01,0,0.01,0
+Scandinavian university press,0,0,0,0,0,0,0,0,0.01,0
+Swets Information Services,0,0,0,0,0,0,0,0,0.01,0
+Geological Society of London/Ebsco,0,0,0,0,0,0.01,0,0,0.01,0
+Mudpie,0,0,0,0,0,0,0,0,0.01,0
+Urban View,0,0,0,0,0,0,0,0,0.01,0
+Society of Exploration Geophysicists (SEG),0,0,0,0,0,0,0,0,0.01,0
+eFunda Inc.,0,0,0,0,0,0,0,0,0.01,0
+IOS Press,0,0,0,0,0,0,0,0,0.01,0
+International Bureau of Fiscal Documentation (IBFD),0,0,0,0,0,0,0,0,0.01,0
+Royal Adelaide Hospital,0,0,0,0,0,0,0,0,0.01,0
+Communication Institute for Online Scholarship (CIOS),0,0,0,0,0,0,0,0,0.01,0
+Mid Sweden University,0,0,0,0,0,0,0,0,0.01,0
+Pira International,0,0,0,0,0,0,0,0,0.01,0
+Keskisuomalainen Oyj.,0,0,0,0,0,0,0,0,0.01,0
+University of Oxford Oriental Studies Faculty,0,0,0,0,0,0,0,0,0.01,0
+Niedersächsische Staats-und Universitätsbibliothek Göttingen,0,0,0,0,0,0,0,0,0.01,0
+Lovdata,0,0,0,0,0,0,0,0,0,0
+TAK Oy,0,0,0,0,0,0,0,0,0,0
+Axiell Media,0,0,0,0,0,0,0,0,0,0
+Tax Analysts,0,0,0,0,0,0,0,0,0,0
+PhilPapers Foundation,0,0,0,0,0,0,0,0,0,0
+The National Bureau of Economic Research,0,0,0,0,0,0,0,0,0,0
+Kirjavälitys,0,0,0,0,0,0,0,0,0,0
+Viestilehdet Oy,0,0,0,0,0,0,0,0,0,0
+Crnet Corporate Responsibility Network,0,0,0,0,0,0,0,0,0,0
+Crnet Oy,0,0,0,0,0,0,0,0,0,0
+IPA Source,0,0,0,0,0,0,0,0,0,0
+Adelaide Research & Innovation,0,0,0,0,0,0,0,0,0,0
+HS/M-Brain,0,0,0,0,0,0,0,0,0,0
+Bisnode,0,0,0,0,0,0,0,0,0,0
+Institution of Engineering and Technology,0,0,0,0,0,0,0,0,0,0
+Dictionnaires Le Robert,0,0,0,0,0,0,0,0,0,0
+Energiateollisuus ry+Adato Energia Oy,0,0,0,0,0,0,0,0,0,0
+Engineering Information,0,0,0,0,0,0,0,0,0,0
+Haymarket Media Group Ltd ,0,0,0,0,0,0,0,0,0,0
+MIT Press Journals,0,0,0,0,0,0,0,0,0,0
+Association of Asian Studies (AAS),0,0,0,0,0,0,0,0,0,0
+BabelScores,0,0,0,0,0,0,0,0,0,0
+Content Online Europe Limited,0,0,0,0,0,0,0,0,0,0
+Utrikespolitiska Institutet,0,0,0,0,0,0,0,0,0,0
+Vittorio Klostermann,0,0,0,0,0,0,0,0,0,0
+Brockhaus NE GmbH,0,0,0,0,0,0,0,0,0,0
+American Economic Association,0,0,0,0,0,0,0,0,0,0
+European Directorate for the Quality of Medicines (EDQM),0,0,0,0,0,0,0,0,0,0
+China Academic Journal (CD) Electronic Journals Publishing House Co.,0,0,0,0,0,0,0,0,0,0
+Futere CAD,0,0,0,0,0,0,0,0,0,0
+Serials Solution,0,0,0,0,0,0,0,0,0,0
+International Information Services,0,0,0,0,0,0,0,0,0,0
+TLG Project,0,0,0,0,0,0,0,0,0,0
+AMERICAN THORACIC SOCIETY,0,0,0,0,0,0,0,0,0,0
+SportBusiness Groups,0,0,0,0,0,0,0,0,0,0
+Konsulttitoimisto Cadlink Oy,0,0,0,0,0,0,0,0,0,0
+MOT,0,0,0,0,0,0,0,0,0,0
+Verlag fur chemische industrie,0,0,0,0,0,0,0,0,0,0
+InteLex Corporation,0,0,0,0,0,0,0,0,0,0
+American Institute of Aeronautics and Astronautics (AIAA),0,0,0,0,0,0,0,0,0,0
+Society of American Foresters,0,0,0,0,0,0,0,0,0,0
+Expert Information Ltd./ProQuest,0,0,0,0,0,0,0,0,0,0
+OTDBASE,0,0,0,0,0,0,0,0,0,0
+JOURNAL OF IMMUNOLOGY,0,0,0,0,0,0,0,0,0,0
+Global U LearnTechLib,0,0,0,0,0,0,0,0,0,0
+Ingram,0,0,0,0,0,0,0,0,0,0
+Ecopoint Inc.,0,0,0,0,0,0,0,0,0,0
+Third Iron,0,0,0,0,0,0,0,0,0,0
+Geological Society of America (GSA)/Ebsco,0,0,0,0,0,0,0,0,0,0
+AMERICAN PHYSIOLOGICAL SOCIETY,0,0,0,0,0,0,0,0,0,0
+Literary Dictionary Company Limited,0,0,0,0,0,0,0,0,0,0
+CompOpus,0,0,0,0,0,0,0,0,0,0
+Agence Europe SA/LM,0,0,0,0,0,0,0,0,0,0
+Industrial minerals,0,0,0,0,0,0,0,0,0,0
+Docutech Ltd,0,0,0,0,0,0,0,0,0,0
+ChartCo,0,0,0,0,0,0,0,0,0,0
+New York Times,0,0,0,0,0,0,0,0,0,0
+Langenscheidt GmbH & Co. KG,0,0,0,0,0,0,0,0,0,0
+Richard Boorberg Verlag GmbH & Co KG,0,0,0,0,0,0,0,0,0,0
+Tapio,0,0,0,0,0,0,0,0,0,0
+eMusicQuest,0,0,0,0,0,0,0,0,0,0
+FIZ Karlsruhe,0,0,0,0,0,0,0,0,0,0
+Marilyn Conibear,0,0,0,0,0,0,0,0,0,0
+Centre for Policy Research,0,0,0,0,0,0,0,0,0,0
+Biering & Brinkmann Verlag,0,0,0,0,0,0,0,0,0,0
+DigiZeitschriften,0,0,0,0,0,0,0,0,0,0
+Geschaeftsstelle DigiZeitschriften e.V. c/o Niedersaechsische Staats-und Univers,0,0,0,0,0,0,0,0,0,0
+ERS EUROPEAN RESPIRATORY SOCIETY,0,0,0,0,0,0,0,0,0,0
+Britannica/Wize Nordic,0,0,0,0,0,0,0,0,0,0
+European Society of Intensive Care Medicine (ESICM),0,0,0,0,0,0,0,0,0,0
+Springshare,0,0,0,0,0,0,0,0,0,0
+Marketing Science Institute,0,0,0,0,0,0,0,0,0,0
+AMERICAN JOURNAL OF PUBLIC HEALTH,0,0,0,0,0,0,0,0,0,0
+ISSN-portaali,0,0,0,0,0,0,0,0,0,0
+OCEANSIDE PUBLICATIONS INC.,0,0,0,0,0,0,0,0,0,0
+Research Professional,0,0,0,0,0,0,0,0,0,0
+AMERICAN PSYCHIATRIC ASSOCIATION PUBLISHING,0,0,0,0,0,0,0,0,0,0
+Intelligence Research Ltd.,0,0,0,0,0,0,0,0,0,0
+DRAM,0,0,0,0,0,0,0,0,0,0
+Stellatum Oy,0,0,0,0,0,0,0,0,0,0
+Metsäkustannus,0,0,0,0,0,0,0,0,0,0
+University of Wisconsin Press,0,0,0,0,0,0,0,0,0,0
+American Society for Nutrition,0,0,0,0,0,0,0,0,0,0
+PHOENIX BIOINFORMATICS CORPORATION,0,0,0,0,0,0,0,0,0,0
+Booky.fi Oy,0,0,0,0,0,0,0,0,0,0
+Open Book Publishers,0,0,0,0,0,0,0,0,0,0
+Delbanco,0,0,0,0,0,0,0,0,0,0
+HighWire/LM Tietopalvelut,0,0,0,0,0,0,0,0,0,0
+INDERSCIENCE ENTERPRISES LTD,0,0,0,0,0,0,0,0,0,0
+American Society of Animal Science,0,0,0,0,0,0,0,0,0,0
+European Audiovisual Observatory,0,0,0,0,0,0,0,0,0,0
+Mineralogical Society,0,0,0,0,0,0,0,0,0,0
+Harvard University Press,0,0,0,0,0,0,0,0,0,0
+FINVA Finanssikoulutus Oy,0,0,0,0,0,0,0,0,0,0
+International Telecommunications Union (IT),0,0,0,0,0,0,0,0,0,0
+Carl Hanser Verlag,0,0,0,0,0,0,0,0,0,0
+UDC Consortium,0,0,0,0,0,0,0,0,0,0
+SEPM Society for Sedimentary Geology,0,0,0,0,0,0,0,0,0,0
+American Statistical Association,0,0,0,0,0,0,0,0,0,0
+SPR Veripalvelu,0,0,0,0,0,0,0,0,0,0
+INFORMS,0,0,0,0,0,0,0,0,0,0
+Economic and Financial Publishing ,0,0,0,0,0,0,0,0,0,0
+The Economist,0,0,0,0,0,0,0,0,0,0
+European Mathematical Society,0,0,0,0,0,0,0,0,0,0
+Canadian Institute of Geomatics,0,0,0,0,0,0,0,0,0,0
+Ifis Publishing,0,0,0,0,0,0,0,0,0,0
+CSIRO Publishing,0,0,0,0,0,0,0,0,0,0
+Warkauden lehti,0,0,0,0,0,0,0,0,0,0
+PLUTO PRESS,0,0,0,0,0,0,0,0,0,0
+Prosessiteollisuuden standardoimiskeskus,0,0,0,0,0,0,0,0,0,0
+Pedanet,0,0,0,0,0,0,0,0,0,0
+PTC Services Oy,0,0,0,0,0,0,0,0,0,0
+Mohr Siebeck ,0,0,0,0,0,0,0,0,0,0
+Export Finland,0,0,0,0,0,0,0,0,0,0
+University of Toronto Press,0,0,0,0,0,0,0,0,0,0
+SpaceNews,0,0,0,0,0,0,0,0,0,0
+Brill/LM,0,0,0,0,0,0,0,0,0,0
+Statacorp Lp,0,0,0,0,0,0,0,0,0,0
+National Tax Association,0,0,0,0,0,0,0,0,0,0
+New Scientist,0,0,0,0,0,0,0,0,0,0
+Social Science History Association,0,0,0,0,0,0,0,0,0,0
+Zentralverband Gartenbau e.V.,0,0,0,0,0,0,0,0,0,0
+International Association Of Assessing Officers,0,0,0,0,0,0,0,0,0,0
+University of Colorado,0,0,0,0,0,0,0,0,0,0
+Otava Media,0,0,0,0,0,0,0,0,0,0
+Consortium Erudit,0,0,0,0,0,0,0,0,0,0
+Dow Jones & Company,0,0,0,0,0,0,0,0,0,0
+Questex Media Group,0,0,0,0,0,0,0,0,0,0
+SCIENCE AND MEDICINE INC.,0,0,0,0,0,0,0,0,0,0
+Verlag Barbara Budrich,0,0,0,0,0,0,0,0,0,0
+Cleo OpenEdition,0,0,0,0,0,0,0,0,0,0
+The World Today,0,0,0,0,0,0,0,0,0,0
+Editions Quebecoises,0,0,0,0,0,0,0,0,0,0
+Comparative politics/LM,0,0,0,0,0,0,0,0,0,0
+European Economic Association,0,0,0,0,0,0,0,0,0,0
+Iisalmen Sanomat,0,0,0,0,0,0,0,0,0,0
+American Phytopathological Society,0,0,0,0,0,0,0,0,0,0
+Fagbokforlaget,0,0,0,0,0,0,0,0,0,0
+Scientific American,0,0,0,0,0,0,0,0,0,0
+Kirschbaum Verlag,0,0,0,0,0,0,0,0,0,0
+Kustannus Oy,0,0,0,0,0,0,0,0,0,0
+Project Muse/LM Tietopalvelut Oy,0,0,0,0,0,0,0,0,0,0
+International Institute of Public Finances (IIPF),0,0,0,0,0,0,0,0,0,0
+Vetenskapsmedia,0,0,0,0,0,0,0,0,0,0
+Royal Economic Society,0,0,0,0,0,0,0,0,0,0
+Arctic Now,0,0,0,0,0,0,0,0,0,0
+American Geosciences Institute (AGI),0,0,0,0,0,0,0,0,0,0
+FOREIGN AFFAIRS,0,0,0,0,0,0,0,0,0,0
+Fru Olsson,0,0,0,0,0,0,0,0,0,0
+Haaretz,0,0,0,0,0,0,0,0,0,0
+European Association of Labour Economics,0,0,0,0,0,0,0,0,0,0
+Kiinteistöalan Kustannus Oy,0,0,0,0,0,0,0,0,0,0
+FOREIGN POLICY,0,0,0,0,0,0,0,0,0,0
+Terveyden ja hyvinvoinnin laitos (THL),0,0,0,0,0,0,0,0,0,0
+LongPlay,0,0,0,0,0,0,0,0,0,0
+New Eastern Europe,0,0,0,0,0,0,0,0,0,0
+Kansallisarkisto,0,0,0,0,0,0,0,0,0,0
+Koulutuksen tutkimuslaitos,0,0,0,0,0,0,0,0,0,0
