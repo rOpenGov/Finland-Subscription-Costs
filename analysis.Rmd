@@ -100,9 +100,7 @@ d = bind_rows(uk, fi)
 d$Publisher = droplevels(factor(d$Publisher))
 d$Country = factor(d$Country, levels = unique(d$Country))
 d$Costs = d$Costs/1e6 # MEUR
-#subset(d, Publisher == "Elsevier" & Year == 2014 & Country == "UK")$Costs/subset(d, Publisher == "Elsevier" & Year == 2014 & Country == "Finland")$Costs
-#year = 2014; ggplot(subset(d, Year == year), aes(x = Publisher, y = Costs, fill = Country)) + geom_bar(stat = "identity", position = "dodge") + ylab("Costs (MEUR)") + coord_flip() + ggtitle(year)
-dd = d %>% group_by(Country) %>% summarise(Costs = sum(Costs))
+dd <- d %>% group_by(Country) %>% summarise(Costs = sum(Costs))
 ```
 
 Based on the data collected by the Ministry of Education, Finland paid in total
@@ -155,10 +153,9 @@ p1 <- ggplot(dfs, aes(x = Year, y = Costs)) +
        geom_bar(stat = "identity", fill = "lightgray", color = "black") + ggtitle("Total annual costs") +
        geom_text(data = dfs[-1,], aes(x = Year, y = 1.5,
         label = paste(round(100 * diff(dfs$Costs)/dfs$Costs[-length(dfs$Costs)], 1), "%", sep = "")   ),
-     	size = 6, angle = 90, hjust = 0) +
+     	size = 5, angle = 90, hjust = 0) +
        scale_x_continuous(breaks = 2010:2017, labels = c(2010:2017)) + 
        ylab("Costs (MEUR)")
-#print(p1)
 
 dfss = df %>% group_by(Publisher) %>% summarise(Costs = sum(Cost, na.rm = TRUE)) %>% arrange(desc(Costs))
 top.publishers <- as.character(dfss$Publisher[1:10])
@@ -170,7 +167,6 @@ p2 <- ggplot(dfs2, aes(x = Year, y = Costs, color = Publisher)) +
        ggtitle("Cost by publisher 2010-2017") +
        scale_x_continuous(breaks = 2010:2017, labels = c(2010:2017)) +
        ylab("Costs (MEUR)") 
-#print(p2)
 
 library(gridExtra)
 grid.arrange(p1, p2, widths=c(5, 9))
