@@ -33,14 +33,6 @@ Overall, the Finnish data covers 376 unique publishers ([see annual costs by pub
 
 ![plot of chunk foi-totalcosts2b](figure/foi-totalcosts2b-1.png)
 
-```
-## Error in eval(expr, envir, enclos): object 'geom_' not found
-```
-
-```
-## Error in xy.coords(x, y, recycle = TRUE, setLab = FALSE): 'pairlist' object cannot be coerced to type 'double'
-```
-
 
 
 
