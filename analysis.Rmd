@@ -154,8 +154,8 @@ dfs = df %>% group_by(Year) %>% summarise(Costs = sum(Cost)/1e6)
 p1 <- ggplot(dfs, aes(x = Year, y = Costs)) +
        geom_bar(stat = "identity", fill = "lightgray", color = "black") + ggtitle("Total annual costs") +
        geom_text(data = dfs[-1,], aes(x = Year, y = 1.5,
-     label = paste(round(100 * diff(dfs$Costs)/dfs$Costs[-length(dfs$Costs)], 1), "%", sep = "")   ),
-     	   size = 6) +
+        label = paste(round(100 * diff(dfs$Costs)/dfs$Costs[-length(dfs$Costs)], 1), "%", sep = "")   ),
+     	size = 6, angle = 90, hjust = 0) +
        scale_x_continuous(breaks = 2010:2017, labels = c(2010:2017)) + 
        ylab("Costs (MEUR)")
 #print(p1)
@@ -168,6 +168,7 @@ p2 <- ggplot(dfs2, aes(x = Year, y = Costs, color = Publisher)) +
        geom_point() +
        geom_line() +       
        ggtitle("Cost by publisher 2010-2017") +
+       scale_x_continuous(breaks = 2010:2017, labels = c(2010:2017)) +
        ylab("Costs (MEUR)") 
 #print(p2)
 
