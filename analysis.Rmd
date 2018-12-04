@@ -27,11 +27,9 @@ df <- rename(df, Resource.type = Aineistotyyppi)
 df <- rename(df, Way.of.acquisition = Hankintatapa)
 ```
 
-Finland is possibly the only country that has systematically collected and released subscription prices that research libraries pay to academic publishers [as open data](https://avointiede.fi/fi/avoimet-julkaisut/kustantajahintatietoja). In addition, [full text agreements](https://www.kansalliskirjasto.fi/extra/finelib_julkinen/) with many publishers have been made available.
+Finland is possibly the only country that has systematically released subscription prices that research libraries pay to academic publishers [as open data](https://avointiede.fi/fi/avoimet-julkaisut/kustantajahintatietoja). The data is available for all major research institutions in Finland. Recently, an updated data set for 2010–2017 was made openly available at [avointiede.fi](https://avointiede.fi/fi/avoimet-julkaisut/kustantajahintatietoja). In addition, [full text agreements](https://www.kansalliskirjasto.fi/extra/finelib_julkinen/) with many publishers have been [made available](http://finelib.fi/negotiations/agreements/). The subscription price data was initially provided by Finnish Ministry of Education and Culture, and its Open Science and Research Initiative funded 2014–2017, after a successful Freedom of Information request by the Finnish Open Science community, as summarized [elsewhere](https://www.mostlyphysics.net/blog/2016/6/13/finland-takes-leading-role-in-the-openness-of-academic-journal-pricing).
 
-The data is available for all major research institutions in Finland 2010–2017, and it is being collected and maintained by [avointiede.fi](https://avointiede.fi/fi/avoimet-julkaisut/kustantajahintatietoja). The data was initially provided by Finnish Ministry of Education and Culture, and its Open Science and Research Initiative funded 2014–2017, after a successful Freedom of Information request by the Finnish Open Science community, as summarized [elsewhere](https://www.mostlyphysics.net/blog/2016/6/13/finland-takes-leading-role-in-the-openness-of-academic-journal-pricing).
-
-This is an updated version of an [earlier analysis](http://ropengov.github.io/r/2016/06/10/FOI/). For the analysis source code, see [main.R](main.R) in this repository. I have abbreviated some terms as detailed in the source code. Pull requests for additional analyses are welcome and will be acknowledged
+Here, we provide a brief overview of the subscription prices paid by Finnish research institutions 2010-2017, updating the [earlier analysis](http://ropengov.github.io/r/2016/06/10/FOI/). For the analysis source code, see [main.R](main.R) in this repository. I have abbreviated some terms as detailed in the source code. Pull requests for additional analyses are welcome and will be acknowledged
 appropriately.
 
 
@@ -129,7 +127,12 @@ print(p)
 dfs = df %>% group_by(Publisher) %>% summarise(n = n()) %>% arrange(desc(n))
 dfs$Publisher = factor(dfs$Publisher, levels = rev(as.character(dfs$Publisher)))
 dfs$Percentage = round(100 * dfs$n/sum(dfs$n), 1)
-p <- ggplot(dfs[1:20,], aes(x = Publisher, y = n)) + geom_bar(stat = "identity", fill = "lightgray", color = "black") + ggtitle("Subscriptions by publisher") + coord_flip() + xlab("") + ylab("Subscriptions (n)") + geom_text(aes(x=Publisher, y=32, label=paste(Percentage, "%", sep = ""), hjust=ifelse(sign(Percentage)>0, 0, 0)), position = position_dodge(width=1), size = 7)
+p <- ggplot(dfs[1:20,], aes(x = Publisher, y = n)) +
+        geom_bar(stat = "identity", fill = "lightgray", color = "black") +
+	ggtitle("Subscriptions by publisher") +
+	coord_flip() + xlab("") + ylab("Subscriptions (n)") + geom_
+	text(aes(x=Publisher, y=32, label=paste(Percentage, "%", sep = ""),
+	     hjust=ifelse(sign(Percentage)>0, 0, 0)), position = position_dodge(width=1), size = 7)
 #print(p)
 
 dfs = df %>% group_by(Way.of.acquisition) %>% summarise(Costs = sum(Cost)/1e6) %>% arrange(desc(Costs))
@@ -210,10 +213,10 @@ print(p)
 ### Costs by organization
 
 ```{r foi-totalcosts2c, message=FALSE, echo=FALSE}
-dfs = df %>% group_by(Organization.type) %>% summarise(Costs = 100*sum(Cost)/sum(df$Cost))
+dfs <- df %>% group_by(Organization.type) %>% summarise(Costs = 100*sum(Cost)/sum(df$Cost))
 ```
 
-The Finnish data collection includes `r length(unique(df$Organization))` organizations ([see annual costs by organization](http://data.okf.fi/ropengov/20160613-FOI/dashboard.html)). The universities ('yliopisto') are responsible of `r as.numeric(round(dfs[dfs$Organization.type == "University", "Costs"],1))`% of all costs (left figure); University of Helsinki had the highest total costs in 2010-2017 (`r round(as.numeric((dfs = df %>% group_by(Organization) %>% summarise(Costs = sum(Cost)/1e6) %>% arrange(desc(Costs)))[1, "Costs"]),1)` MEUR; top institutions shown in the right figure).
+The Finnish data collection includes `r length(unique(df$Organization))` organizations ([see annual costs by organization](http://data.okf.fi/ropengov/20160613-FOI/dashboard.html)). The universities ('yliopisto') are responsible of `r as.numeric(round(dfs[dfs$Organization.type == "Yliopisto", "Costs"],1))`% of all costs (left figure); University of Helsinki had the highest total costs in 2010-2017 (`r round(as.numeric((dfs = df %>% group_by(Organization) %>% summarise(Costs = sum(Cost)/1e6) %>% arrange(desc(Costs)))[1, "Costs"]),1)` MEUR; top institutions shown in the right figure).
 
 ```{r foi-totalcosts2d, message=FALSE, echo=FALSE, fig.show="hold", out.width="420px", fig.width = 10, fig.height = 9}
 dfs = df %>% group_by(Organization.type) %>% summarise(Costs = sum(Cost)/1e6) %>% arrange(Costs)
@@ -222,7 +225,7 @@ dfs$Percentage = round(100 * dfs$Costs/sum(dfs$Costs), 1)
 p <- ggplot(dfs, aes(x = Organization.type, y = Costs)) + geom_bar(stat = "identity", fill = "lightgray", color = "black") + ggtitle("Costs by organization type") + coord_flip() + xlab("") + ylab("Total Costs (MEUR)") + geom_text(aes(x=Organization.type, y=80, label=paste(Percentage, "%", sep = ""), hjust=ifelse(sign(Percentage)>0, 0, 0)), position = position_dodge(width=1), size = 7)
 print(p)
 
-dfs = df %>% group_by(Organization) %>% summarise(Costs = sum(Cost)/1e6) %>% arrange(desc(Costs))
+dfs <- df %>% group_by(Organization) %>% summarise(Costs = sum(Cost)/1e6) %>% arrange(desc(Costs))
 dfs$Organization = factor(dfs$Organization, levels = rev(as.character(dfs$Organization)))
 dfs$Percentage = round(100 * dfs$Costs/sum(dfs$Costs), 1)
 p <- ggplot(dfs[1:20,], aes(x = Organization, y = Costs)) + geom_bar(stat = "identity", fill = "lightgray", color = "black") + ggtitle("Costs by organization") + coord_flip() + xlab("") + ylab("Total Costs (MEUR)") + geom_text(aes(x=Organization, y=20, label=paste(Percentage, "%", sep = ""), hjust=ifelse(sign(Percentage)>0, 0, 0)), position = position_dodge(width=1), size = 7)
@@ -244,20 +247,52 @@ names(dfs) = c("Organization", "Year", "Costs")
 dfs$Year = as.numeric(as.character(dfs$Year))
 ```
 
-Finally, let us compare the [relative increase in costs across the institutions](http://data.okf.fi/ropengov/20160613-FOI/dashboard.html). The costs are normalized to 1 in 2010, and the top 10 organizations with the highest cost increase in 2010-2017 are shown. The `r sum(!(!is.na(subset(dfs, Year == 2010)$Costs) & !is.na(subset(dfs, Year == 2017)$Costs)))` organizations that did not have declared costs in 2010 or 2017 (see [here](http://data.okf.fi/ropengov/20160613-FOI/dashboard.html)) are excluded.
+Finally, let us compare the relative share of costs per
+institution. The top organizations with the highest total costs are
+shown.
 
-```{r foi-timebyorganization2b, message=FALSE, echo=FALSE, warning=FALSE, fig.width=14, fig.heigth=3}
-# Just show organization with the largest cost increases
-dfs$Costs[dfs$Costs == 0] = NA
-top <- as.character((subset(dfs, Year == 2017) %>% arrange(desc(Costs)))$Organization)[1:10]
-dfs <- dfs %>% dplyr::filter(Organization %in% top)
-# Order the factor levels for the figure
-dfs$Organization <- factor(dfs$Organization, levels = rev(as.character((subset(dfs, Year == 2017) %>% arrange(Costs))$Organization)))
-p <- ggplot(dfs, aes(x = Year, y = Costs, color = Organization)) +
-geom_point() +
-       geom_line() +       
-       ggtitle("Relative cost increase by organization") +
-       ylab("Relative cost increase (%)") +
-       scale_y_continuous(breaks = seq(2, max(dfs$Costs, na.rm = TRUE), 2))
-print(p)
+
+```{r foi-timebyorganization2c, message=FALSE, echo=FALSE, warning=FALSE, fig.width=14, fig.heigth=3}
+# Top organizations by total cost
+dfs <- df %>% group_by(Organization) %>% summarise(Costs = sum(Cost)/1e6) %>% arrange(desc(Costs))
+top <- as.character(dfs$Organization[1:10])
+
+dfs <- df
+dfs$Organization <- as.character(dfs$Organization)
+dfs$Organization[which(!dfs$Organization %in% top)] <- "Other"
+levels <- rev(c(rev(top), "Other"))
+dfs$Organization <- factor(dfs$Organization, levels)
+dfs0 <- dfs
+
+# Time line for relative costs per organization
+dfs <- dfs0 %>% 
+              group_by(Organization, Year) %>%
+	      summarise(Costs = sum(Cost)/1e6) %>%
+              group_by(Year) %>%	      
+	      mutate(Costs_relative = Costs/sum(Costs)) %>%
+	      arrange(desc(Costs))
+dfs$Organization = factor(dfs$Organization, levels = rev(as.character(unique(dfs$Organization))))
+dfs$Percentage = round(100 * dfs$Costs/sum(dfs$Costs), 1)
+dfs$Costs[dfs$Costs == 0] <- NA
+
+# Just check the top organizations
+dfs <- dfs %>% filter(Organization %in% levels)
+dfs$Organization <- droplevels(dfs$Organization)
+dfs$Organization <- factor(dfs$Organization, levels = levels)
+
+p1 <- ggplot(dfs, aes(x = Year, y = Costs_relative, color = Organization)) +
+       labs(title = "Relative share of total costs per organization", y = "Cost share (%)") +
+       geom_point() +
+       geom_line() +
+       #scale_y_continuous(breaks = seq(2, max(dfs$Costs, na.rm = TRUE), 2))
+       scale_y_continuous(labels = scales::percent) +
+       scale_x_continuous(breaks = 2010:2017, labels = c(2010:2017))        
+print(p1)
+
+
+#p2 <- ggplot(dfs, aes(x = Year, y = Costs_relative, fill = Organization)) +
+#       labs(title = "Relative share of the costs per organization", y = "Cost share (%)") +
+#       geom_bar(stat = "identity", position = "stack") +
+#       scale_y_continuous(labels = scales::percent)   
+#print(p2)
 ```
